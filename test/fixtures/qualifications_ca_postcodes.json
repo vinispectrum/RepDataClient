@@ -1,0 +1,32 @@
+[
+  {
+    "condition_codes": [
+      "112"
+    ],
+    "qualification_code": 211
+  },
+  {
+    "qualification_code": 212,
+    "range_sets": [
+      {
+        "from": 35,
+        "to": 45,
+        "units": 311
+      }
+    ]
+  },
+  {
+    "condition_codes": [
+      "111"
+    ],
+    "qualification_code": 219
+  },
+  {
+    "condition_codes": [
+      "V5A1A1",
+      "V5B1L3",
+      "V5C1J7"
+    ],
+    "qualification_code": 229
+  }
+]

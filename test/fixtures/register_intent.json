@@ -1,0 +1,6 @@
+{
+  "apiStatus": "success",
+  "version": "2.0",
+  "msg": "Supplier successfully added to Survey",
+  "survey_entry_url": "http://staging.spectrumsurveys.com:3000/startsurvey?survey_id=3388&supplier_id=49"
+}

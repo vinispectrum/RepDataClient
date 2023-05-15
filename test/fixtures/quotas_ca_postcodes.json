@@ -1,0 +1,33 @@
+[
+  {
+    "quota_id": "329a67f1-92c3-42a1-a2af-8da69e11e350",
+    "quantities": {
+      "currently_open": 74,
+      "remaining": 74,
+      "achieved": 0
+    },
+    "criteria": [
+      {
+        "qualification_code": 212,
+        "range_sets": [
+          {
+            "from": 35,
+            "to": 45,
+            "units": 311
+          }
+        ]
+      },
+      {
+        "condition_codes": [
+          "V5A1A1",
+          "V5B1L3",
+          "V5C1J7"
+        ],
+        "qualification_code": 229
+      }
+    ],
+    "crtd_on": 1537180756686,
+    "mod_on": 1537180756686,
+    "last_complete_date": null
+  }
+]

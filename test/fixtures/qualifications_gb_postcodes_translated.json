@@ -1,0 +1,112 @@
+[
+  {
+    "condition_codes": [
+      "112"
+    ],
+    "qualification_code": 211,
+    "qualification_code_translated": "gender",
+    "qualification_conditions_translated": [
+      "Female"
+    ],
+    "dalia_demographic_key": "gender",
+    "dalia_demographic_values": [
+      "female"
+    ]
+  },
+  {
+    "qualification_code": 212,
+    "range_sets": [
+      {
+        "from": 35,
+        "to": 45,
+        "units": 50
+      }
+    ],
+    "qualification_code_translated": "age",
+    "qualification_conditions_translated": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "dalia_demographic_key": "age",
+    "dalia_demographic_values": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "condition_codes": [
+      "111"
+    ],
+    "qualification_code": 219,
+    "qualification_code_translated": "device",
+    "qualification_conditions_translated": [
+      "Desktop"
+    ],
+    "dalia_demographic_key": "device_kinds",
+    "dalia_demographic_values": [
+      "desktop"
+    ]
+  },
+  {
+    "condition_codes": [
+      "M11AE",
+      "LU54AA",
+      "LU54AB",
+      "MK11AA",
+      "MK94ZQ",
+      "NN72AA",
+      "NN72AD",
+      "MK100AB",
+      "MK771ZA",
+      "HP224AA",
+      "HP234WQ",
+      "NN129TR",
+      "NN129ZZ"
+    ],
+    "qualification_code": 229,
+    "qualification_code_translated": "zipcodes",
+    "qualification_conditions_translated": [
+      "M1",
+      "LU5",
+      "MK1",
+      "MK9",
+      "NN7",
+      "MK10",
+      "MK77",
+      "HP22",
+      "HP23",
+      "NN12"
+    ],
+    "dalia_demographic_key": "postal_code",
+    "dalia_demographic_values": [
+      "M1",
+      "LU5",
+      "MK1",
+      "MK9",
+      "NN7",
+      "MK10",
+      "MK77",
+      "HP22",
+      "HP23",
+      "NN12"
+    ]
+  }
+]

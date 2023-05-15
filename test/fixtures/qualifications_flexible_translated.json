@@ -1,0 +1,22 @@
+[
+  {
+    "condition_codes": ["111", "112"],
+    "qualification_code": 211,
+    "qualification_code_translated": "gender",
+    "qualification_conditions_translated": ["Male", "Female"],
+    "dalia_demographic_key": "gender",
+    "dalia_demographic_values": ["male", "female"]
+  },
+  {
+    "condition_codes": ["112"],
+    "qualification_code": 218,
+    "qualification_code_translated": "parental_status",
+    "qualification_conditions_translated": ["Have children"],
+    "dalia_demographic_key": "parental_status",
+    "dalia_demographic_values": [
+      "children_under_18",
+      "childrren_above_18",
+      "under_18"
+    ]
+  }
+]

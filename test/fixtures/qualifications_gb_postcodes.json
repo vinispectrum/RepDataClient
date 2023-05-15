@@ -1,0 +1,42 @@
+[
+  {
+    "condition_codes": [
+      "112"
+    ],
+    "qualification_code": 211
+  },
+  {
+    "qualification_code": 212,
+    "range_sets": [
+      {
+        "from": 35,
+        "to": 45,
+        "units": 50
+      }
+    ]
+  },
+  {
+    "condition_codes": [
+      "111"
+    ],
+    "qualification_code": 219
+  },
+  {
+    "condition_codes": [
+      "M11AE",
+      "LU54AA",
+      "LU54AB",
+      "MK11AA",
+      "MK94ZQ",
+      "NN72AA",
+      "NN72AD",
+      "MK100AB",
+      "MK771ZA",
+      "HP224AA",
+      "HP234WQ",
+      "NN129TR",
+      "NN129ZZ"
+    ],
+    "qualification_code": 229
+  }
+]

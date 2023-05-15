@@ -1,0 +1,114 @@
+[
+  {
+    "condition_codes": [
+      "111",
+      "112"
+    ],
+    "qualification_code": 211,
+    "qualification_code_translated": "gender",
+    "qualification_conditions_translated": [
+      "Male",
+      "Female"
+    ],
+    "dalia_demographic_key": "gender",
+    "dalia_demographic_values": [
+      "male",
+      "female"
+    ]
+  },
+  {
+    "qualification_code": 212,
+    "range_sets": [
+      {
+        "from": 39,
+        "to": 45,
+        "units": 311
+      },
+      {
+        "from": 31,
+        "to": 38,
+        "units": 311
+      },
+      {
+        "from": 20,
+        "to": 30,
+        "units": 311
+      }
+    ],
+    "qualification_code_translated": "age",
+    "qualification_conditions_translated": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "dalia_demographic_key": "age",
+    "dalia_demographic_values": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "condition_codes": [
+      "111",
+      "112"
+    ],
+    "qualification_code": 219,
+    "qualification_code_translated": "device",
+    "qualification_conditions_translated": [
+      "Desktop",
+      "Mobile"
+    ],
+    "dalia_demographic_key": "device_kinds",
+    "dalia_demographic_values": [
+      "desktop",
+      "mobile"
+    ]
+  }
+]

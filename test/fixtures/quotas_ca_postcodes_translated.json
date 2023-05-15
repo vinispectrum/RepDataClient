@@ -1,0 +1,73 @@
+[
+  {
+    "quota_id": "329a67f1-92c3-42a1-a2af-8da69e11e350",
+    "quantities": {
+      "currently_open": 74,
+      "remaining": 74,
+      "achieved": 0
+    },
+    "criteria": [
+      {
+        "qualification_code": 212,
+        "range_sets": [
+          {
+            "from": 35,
+            "to": 45,
+            "units": 311
+          }
+        ],
+        "qualification_code_translated": "age",
+        "qualification_conditions_translated": [
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45
+        ],
+        "dalia_demographic_key": "age",
+        "dalia_demographic_values": [
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45
+        ]
+      },
+      {
+        "condition_codes": [
+          "V5A1A1",
+          "V5B1L3",
+          "V5C1J7"
+        ],
+        "qualification_code": 229,
+        "qualification_code_translated": "zipcodes",
+        "qualification_conditions_translated": [
+          "V5A",
+          "V5B",
+          "V5C"
+        ],
+        "dalia_demographic_key": "postal_code",
+        "dalia_demographic_values": [
+          "V5A",
+          "V5B",
+          "V5C"
+        ]
+      }
+    ],
+    "crtd_on": 1537180756686,
+    "mod_on": 1537180756686,
+    "last_complete_date": null
+  }
+]

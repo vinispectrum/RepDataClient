@@ -1,0 +1,2354 @@
+{
+  "apiStatus": "success",
+  "msg": "Survey Quota and Qualification fetched successfully ",
+  "version": "2.0",
+  "survey": {
+    "cpi": 1.6,
+    "survey_grouping": {
+      "survey_ids": [
+        3384,
+        3388
+      ],
+      "exclusion_period": 90
+    },
+    "supplier_completes": {
+      "needed": 1000,
+      "achieved": 0,
+      "remaining": 1000
+    },
+    "price_type": 1,
+    "pii": false,
+    "buyer_message": "",
+    "survey_performance": {
+      "overall": {
+        "ir": 70,
+        "loi": 10
+      },
+      "last_block": {
+        "ir": null,
+        "loi": null
+      }
+    },
+    "survey_id": 3388,
+    "last_complete_date": null,
+    "survey_name": "Toys and Games Survey #3388",
+    "surveyLocalization": "en_US",
+    "survey_status": 22,
+    "buyer_id": null,
+    "field_end_date": 1496060046000,
+    "crtd_on": 1494332046554,
+    "mod_on": 1494332046554,
+    "qualifications": [
+      {
+        "condition_codes": [
+          "111",
+          "112"
+        ],
+        "qualification_code": 211
+      },
+      {
+        "qualification_code": 212,
+        "range_sets": [
+          {
+            "from": 39,
+            "to": 45,
+            "units": 311
+          },
+          {
+            "from": 31,
+            "to": 38,
+            "units": 311
+          },
+          {
+            "from": 20,
+            "to": 30,
+            "units": 311
+          }
+        ]
+      },
+      {
+        "qualification_code": 213,
+        "range_sets": [
+          {
+            "from": 20000,
+            "to": 50000,
+            "units": 321
+          }
+        ]
+      },
+      {
+        "condition_codes": [
+          "111",
+          "112",
+          "113",
+          "114",
+          "115",
+          "116",
+          "117"
+        ],
+        "qualification_code": 214
+      },
+      {
+        "condition_codes": [
+          "114"
+        ],
+        "qualification_code": 217
+      },
+      {
+        "condition_codes": [
+          "111",
+          "113"
+        ],
+        "qualification_code": 219
+      },
+      {
+        "condition_codes": [
+          "6"
+        ],
+        "qualification_code": 225
+      }
+    ],
+    "quotas": [
+      {
+        "quota_id": "6e117e95-5519-489c-8642-0607f78feba5",
+        "quantities": {
+          "currently_open": 4,
+          "remaining": 4,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 55,
+                "from": 46
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "288a288e-c84c-4eed-b535-96bc0acaa3c3",
+        "quantities": {
+          "currently_open": 8,
+          "remaining": 8,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 55,
+                "from": 46
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "d9279e60-9761-4832-97e9-6c11c0ce69c0",
+        "quantities": {
+          "currently_open": 12,
+          "remaining": 12,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 55,
+                "from": 46
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "113"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "c5bf809b-96f3-4454-a07f-644e847fd77d",
+        "quantities": {
+          "currently_open": 4,
+          "remaining": 4,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 55,
+                "from": 46
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "114"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "9e0d59c4-d5c9-4180-9317-103a4bf6b405",
+        "quantities": {
+          "currently_open": 4,
+          "remaining": 4,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 55,
+                "from": 46
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "115"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "02ba3107-da0d-439c-977d-57c2966e2058",
+        "quantities": {
+          "currently_open": 4,
+          "remaining": 4,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 55,
+                "from": 46
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "116"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "85d75e41-1fef-40d2-aa98-2f1442efd623",
+        "quantities": {
+          "currently_open": 4,
+          "remaining": 4,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 55,
+                "from": 46
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "117"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "0847a9c9-1de0-4fbe-9712-350847a00dd1",
+        "quantities": {
+          "currently_open": 20,
+          "remaining": 20,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 45,
+                "from": 39
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "317e01c1-2ae3-4037-8e47-afd20aa61fb2",
+        "quantities": {
+          "currently_open": 40,
+          "remaining": 40,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 45,
+                "from": 39
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "a52b0762-4dbb-47ce-a408-7fa8429b3bd8",
+        "quantities": {
+          "currently_open": 60,
+          "remaining": 60,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 45,
+                "from": 39
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "113"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "ba537b72-850d-4c88-bfb3-45d98c6dc42b",
+        "quantities": {
+          "currently_open": 20,
+          "remaining": 20,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 45,
+                "from": 39
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "114"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "4c20049a-125d-427b-99af-0744290b6c28",
+        "quantities": {
+          "currently_open": 20,
+          "remaining": 20,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 45,
+                "from": 39
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "115"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "101d214b-c419-4cb6-bd12-4e5657cc2cce",
+        "quantities": {
+          "currently_open": 20,
+          "remaining": 20,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 45,
+                "from": 39
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "116"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "45753a56-aec3-46dc-aa66-2139afa8edbe",
+        "quantities": {
+          "currently_open": 20,
+          "remaining": 20,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 45,
+                "from": 39
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "117"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "f8af6495-11a7-45d3-b2eb-0470a7dc740e",
+        "quantities": {
+          "currently_open": 12,
+          "remaining": 12,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 38,
+                "from": 31
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "749a686e-f2f2-4eef-93e9-3b6721186079",
+        "quantities": {
+          "currently_open": 24,
+          "remaining": 24,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 38,
+                "from": 31
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "b1d24f9f-b0b1-4605-bca6-5323aa535c53",
+        "quantities": {
+          "currently_open": 36,
+          "remaining": 36,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 38,
+                "from": 31
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "113"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "4b2afde9-6ecd-4f14-8488-8f9f37d8a2fa",
+        "quantities": {
+          "currently_open": 12,
+          "remaining": 12,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 38,
+                "from": 31
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "114"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "3a29bc6f-88d8-42f6-b428-e093e2101989",
+        "quantities": {
+          "currently_open": 12,
+          "remaining": 12,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 38,
+                "from": 31
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "115"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "a098e1bc-8825-48fb-a5e0-4a6c25c2cdf0",
+        "quantities": {
+          "currently_open": 12,
+          "remaining": 12,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 38,
+                "from": 31
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "116"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "65e9eb52-0c63-47ab-9f79-76f384f6d872",
+        "quantities": {
+          "currently_open": 12,
+          "remaining": 12,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 38,
+                "from": 31
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "117"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "5ceb3a76-0df8-492a-887d-7c26bd3ef308",
+        "quantities": {
+          "currently_open": 4,
+          "remaining": 4,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 30,
+                "from": 20
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "dacd7e2d-f794-4ce7-8fa2-295a3f6ecde0",
+        "quantities": {
+          "currently_open": 8,
+          "remaining": 8,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 30,
+                "from": 20
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "624d008b-e1f3-4378-9ad0-b7bca583d1a8",
+        "quantities": {
+          "currently_open": 12,
+          "remaining": 12,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 30,
+                "from": 20
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "113"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "baefedfc-d6d6-4b13-ad7d-f6dc8a62d8a3",
+        "quantities": {
+          "currently_open": 4,
+          "remaining": 4,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 30,
+                "from": 20
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "114"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "11eedfe7-f552-43c0-b770-b811032e1ff2",
+        "quantities": {
+          "currently_open": 4,
+          "remaining": 4,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 30,
+                "from": 20
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "115"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "efad5817-114d-4921-b132-6d5ec69cc092",
+        "quantities": {
+          "currently_open": 4,
+          "remaining": 4,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 30,
+                "from": 20
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "116"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "56accd43-6c75-42aa-bc18-31fd87fda5df",
+        "quantities": {
+          "currently_open": 4,
+          "remaining": 4,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 30,
+                "from": 20
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "117"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "09fa4550-dafb-4a6d-82a0-b899d1b69597",
+        "quantities": {
+          "currently_open": 6,
+          "remaining": 6,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 55,
+                "from": 46
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "035a3694-f28d-4859-99b0-492b4c19a589",
+        "quantities": {
+          "currently_open": 12,
+          "remaining": 12,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 55,
+                "from": 46
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "f1adceb6-6c4f-4064-9188-bddc819afd87",
+        "quantities": {
+          "currently_open": 18,
+          "remaining": 18,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 55,
+                "from": 46
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "113"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "50f456ff-3c8f-468b-9c6a-dfb8329077bc",
+        "quantities": {
+          "currently_open": 6,
+          "remaining": 6,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 55,
+                "from": 46
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "114"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "d76abeac-77c5-485d-9708-749128114013",
+        "quantities": {
+          "currently_open": 6,
+          "remaining": 6,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 55,
+                "from": 46
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "115"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "ffa03fd4-51a2-4a35-860f-bb602a78b8e2",
+        "quantities": {
+          "currently_open": 6,
+          "remaining": 6,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 55,
+                "from": 46
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "116"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "df401b52-96a9-444a-9862-c52db743364f",
+        "quantities": {
+          "currently_open": 6,
+          "remaining": 6,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 55,
+                "from": 46
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "117"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "450a7e66-327c-4dc0-9b36-4d7fc1615fa9",
+        "quantities": {
+          "currently_open": 30,
+          "remaining": 30,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 45,
+                "from": 39
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "39b27498-c486-4593-bf36-ac6e31b5fd54",
+        "quantities": {
+          "currently_open": 60,
+          "remaining": 60,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 45,
+                "from": 39
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "22fa343f-2eb4-4e1c-817c-3d0a22b1e694",
+        "quantities": {
+          "currently_open": 90,
+          "remaining": 90,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 45,
+                "from": 39
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "113"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "62e7abb5-0245-4df3-a9a3-e7f274499167",
+        "quantities": {
+          "currently_open": 30,
+          "remaining": 30,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 45,
+                "from": 39
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "114"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "154b1fec-d94d-493e-9a68-7541b2c26d06",
+        "quantities": {
+          "currently_open": 30,
+          "remaining": 30,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 45,
+                "from": 39
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "115"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "870a99b4-66ee-4823-ac7f-2191e991912e",
+        "quantities": {
+          "currently_open": 30,
+          "remaining": 30,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 45,
+                "from": 39
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "116"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "76a4d224-0ca2-4b93-9bc2-60fe43873fc2",
+        "quantities": {
+          "currently_open": 30,
+          "remaining": 30,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 45,
+                "from": 39
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "117"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "825ea2d1-d302-4d10-880d-0a00dc9a0a23",
+        "quantities": {
+          "currently_open": 18,
+          "remaining": 18,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 38,
+                "from": 31
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "81271ee2-d9d5-4791-a7c8-ded2a2e16763",
+        "quantities": {
+          "currently_open": 36,
+          "remaining": 36,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 38,
+                "from": 31
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "e853b155-890a-4588-bb29-1b299888539a",
+        "quantities": {
+          "currently_open": 54,
+          "remaining": 54,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 38,
+                "from": 31
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "113"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "36b8f625-9d3a-4646-9258-d0f013929f2c",
+        "quantities": {
+          "currently_open": 18,
+          "remaining": 18,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 38,
+                "from": 31
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "114"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "a06cc67a-ec1c-4d77-9dfe-1c54353f587c",
+        "quantities": {
+          "currently_open": 18,
+          "remaining": 18,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 38,
+                "from": 31
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "115"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "51833f49-a5cc-40ca-a716-5709d5338718",
+        "quantities": {
+          "currently_open": 18,
+          "remaining": 18,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 38,
+                "from": 31
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "116"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "3a6f62df-7448-4e8a-9562-969d51369cb3",
+        "quantities": {
+          "currently_open": 18,
+          "remaining": 18,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 38,
+                "from": 31
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "117"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "4f9e6bca-9d89-4386-9966-6a7f947d5ec0",
+        "quantities": {
+          "currently_open": 6,
+          "remaining": 6,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 30,
+                "from": 20
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "111"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "cf13e10e-cb29-46d7-b7fe-6b6467ed6785",
+        "quantities": {
+          "currently_open": 12,
+          "remaining": 12,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 30,
+                "from": 20
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "b8b718c2-0362-48b2-8b04-0254ea1b5b42",
+        "quantities": {
+          "currently_open": 18,
+          "remaining": 18,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 30,
+                "from": 20
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "113"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "942363dd-0a3c-40f5-bdd2-d3b7cb7369c5",
+        "quantities": {
+          "currently_open": 6,
+          "remaining": 6,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 30,
+                "from": 20
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "114"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "67905e9a-063c-4ccb-8e68-1d3a8e70e035",
+        "quantities": {
+          "currently_open": 6,
+          "remaining": 6,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 30,
+                "from": 20
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "115"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "44c94c4d-24f1-4417-8eb4-1fc91c245c9a",
+        "quantities": {
+          "currently_open": 6,
+          "remaining": 6,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 30,
+                "from": 20
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "116"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      },
+      {
+        "quota_id": "7336727b-822b-4a03-9a4f-b9d2d7bfca1a",
+        "quantities": {
+          "currently_open": 6,
+          "remaining": 6,
+          "achieved": 0
+        },
+        "criteria": [
+          {
+            "qualification_code": 211,
+            "condition_codes": [
+              "112"
+            ]
+          },
+          {
+            "qualification_code": 212,
+            "range_sets": [
+              {
+                "units": 311,
+                "to": 30,
+                "from": 20
+              }
+            ]
+          },
+          {
+            "qualification_code": 214,
+            "condition_codes": [
+              "117"
+            ]
+          },
+          {
+            "qualification_code": 225,
+            "condition_codes": [
+              "6"
+            ]
+          }
+        ],
+        "crtd_on": 1494327242760,
+        "mod_on": 1494327242760
+      }
+    ]
+  }
+}

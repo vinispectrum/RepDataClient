@@ -1,0 +1,78 @@
+[
+  {
+    "quota_id": "6e117e95-5519-489c-8642-0607f78feba5",
+    "quantities": {
+      "currently_open": 4,
+      "remaining": 4,
+      "achieved": 0
+    },
+    "criteria": [
+      {
+        "qualification_code": 211,
+        "condition_codes": ["111"],
+        "qualification_code_translated": "gender",
+        "qualification_conditions_translated": ["Male"],
+        "dalia_demographic_key": "gender",
+        "dalia_demographic_values": ["male"]
+      },
+      {
+        "qualification_code": 218,
+        "range_sets": [
+          {
+            "units": 311,
+            "to": 55,
+            "from": 46
+          }
+        ],
+        "qualification_code_translated": "parental_status",
+        "qualification_conditions_translated": ["Have children"],
+        "dalia_demographic_key": "parental_status",
+        "dalia_demographic_values": [
+          "children_under_18",
+          "childrren_above_18",
+          "under_18"
+        ]
+      }
+    ],
+    "crtd_on": 1494327242760,
+    "mod_on": 1494327242760
+  },
+  {
+    "quota_id": "6e117e95-5519-489c-8642-0607f78febwqr",
+    "quantities": {
+      "currently_open": 4,
+      "remaining": 0,
+      "achieved": 0
+    },
+    "criteria": [
+      {
+        "qualification_code": 211,
+        "condition_codes": ["112"],
+        "qualification_code_translated": "gender",
+        "qualification_conditions_translated": ["Female"],
+        "dalia_demographic_key": "gender",
+        "dalia_demographic_values": ["female"]
+      },
+      {
+        "qualification_code": 218,
+        "range_sets": [
+          {
+            "units": 311,
+            "to": 55,
+            "from": 46
+          }
+        ],
+        "qualification_code_translated": "parental_status",
+        "qualification_conditions_translated": ["Have children"],
+        "dalia_demographic_key": "parental_status",
+        "dalia_demographic_values": [
+          "children_under_18",
+          "childrren_above_18",
+          "under_18"
+        ]
+      }
+    ],
+    "crtd_on": 1494327242760,
+    "mod_on": 1494327242760
+  }
+]

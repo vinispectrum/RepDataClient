@@ -1,0 +1,97 @@
+[
+  {
+    "quota_id": "329a67f1-92c3-42a1-a2af-8da69e11e350",
+    "quantities": {
+      "currently_open": 74,
+      "remaining": 74,
+      "achieved": 0
+    },
+    "criteria": [
+      {
+        "qualification_code": 212,
+        "range_sets": [
+          {
+            "from": 35,
+            "to": 45,
+            "units": 311
+          }
+        ],
+        "qualification_code_translated": "age",
+        "qualification_conditions_translated": [
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45
+        ],
+        "dalia_demographic_key": "age",
+        "dalia_demographic_values": [
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45
+        ]
+      },
+      {
+        "condition_codes": [
+          "M11AE",
+          "LU54AA",
+          "LU54AB",
+          "MK11AA",
+          "MK94ZQ",
+          "NN72AA",
+          "NN72AD",
+          "MK100AB",
+          "MK771ZA",
+          "HP224AA",
+          "HP234WQ",
+          "NN129TR",
+          "NN129ZZ"
+        ],
+        "qualification_code": 229,
+        "qualification_code_translated": "zipcodes",
+        "qualification_conditions_translated": [
+          "M1",
+          "LU5",
+          "MK1",
+          "MK9",
+          "NN7",
+          "MK10",
+          "MK77",
+          "HP22",
+          "HP23",
+          "NN12"
+        ],
+        "dalia_demographic_key": "postal_code",
+        "dalia_demographic_values": [
+          "M1",
+          "LU5",
+          "MK1",
+          "MK9",
+          "NN7",
+          "MK10",
+          "MK77",
+          "HP22",
+          "HP23",
+          "NN12"
+        ]
+      }
+    ],
+    "crtd_on": 1537180756686,
+    "mod_on": 1537180756686,
+    "last_complete_date": null
+  }
+]

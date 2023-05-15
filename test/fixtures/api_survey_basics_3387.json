@@ -1,0 +1,30 @@
+{
+  "cpi": 3,
+  "survey_grouping": {
+  },
+  "supplier_completes": {
+    "needed": 8,
+    "achieved": 0,
+    "remaining": 8
+  },
+  "survey_performance": {
+    "overall": {
+      "ir": 15,
+      "loi": 10
+    },
+    "last_block": {
+      "ir": null,
+      "loi": null
+    }
+  },
+  "survey_id": 3384,
+  "last_complete_date": null,
+  "survey_name": "Consumer Electronics Survey #3384",
+  "surveyLocalization": "en_US",
+  "survey_status": 22,
+  "field_end_date": 1495120212000,
+  "crtd_on": 1494256212890,
+  "mod_on": 1494343800129,
+  "category": "Consumer Electronics",
+  "category_code": 214
+}

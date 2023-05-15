@@ -1,0 +1,5762 @@
+[
+  {
+    "qualification_code": 211,
+    "qualification_name": "gender",
+    "dalia_demographic_key": "gender",
+    "same_value": false,
+    "conditions": [
+      {
+        "condition_code": "111",
+        "condition_text": "Male",
+        "dalia_demographic_value": "male"
+      },
+      {
+        "condition_code": "112",
+        "condition_text": "Female",
+        "dalia_demographic_value": "female"
+      }
+    ]
+  },
+  {
+    "qualification_code": 261,
+    "qualification_name": "brasil_regions",
+    "dalia_demographic_key": "region_name",
+    "same_value": false,
+    "conditions": [
+      {
+        "condition_code": "111",
+        "condition_text": "Norte",
+        "dalia_demographic_value": [
+          "Acre",
+          "Amapa",
+          "Amazonas",
+          "Para",
+          "Rondonia",
+          "Roraima",
+          "Tocantins"
+        ]
+      },
+      {
+        "condition_code": "112",
+        "condition_text": "Nordeste",
+        "dalia_demographic_value": [
+          "Rio Grande do Norte",
+          "Alagoas",
+          "Bahia",
+          "Ceara",
+          "Maranhao",
+          "Paraiba",
+          "Pernambuco",
+          "Piaui",
+          "Sergipe"
+        ]
+      },
+      {
+        "condition_code": "113",
+        "condition_text": "Centro-Oeste",
+        "dalia_demographic_value": [
+          "Distrito Federal",
+          "Goias",
+          "Mato Grosso do Sul",
+          "Mato Grosso"
+        ]
+      },
+      {
+        "condition_code": "114",
+        "condition_text": "Sudeste",
+        "dalia_demographic_value": [
+          "Espirito Santo",
+          "Minas Gerais",
+          "Rio de Janeiro",
+          "Sao Paulo"
+        ]
+      },
+      {
+        "condition_code": "115",
+        "condition_text": "Sul",
+        "dalia_demographic_value": [
+          "Parana",
+          "Rio Grande do Sul",
+          "Santa Catarina"
+        ]
+      }
+    ]
+  },
+  {
+    "qualification_code": 219,
+    "qualification_name": "device",
+    "dalia_demographic_key": "device_kinds",
+    "same_value": false,
+    "conditions": [
+      {
+        "condition_code": "111",
+        "condition_text": "Desktop",
+        "dalia_demographic_value": "desktop"
+      },
+      {
+        "condition_code": "112",
+        "condition_text": "Mobile",
+        "dalia_demographic_value": "mobile"
+      },
+      {
+        "condition_code": "113",
+        "condition_text": "Tablet",
+        "dalia_demographic_value": "tablet"
+      }
+    ]
+  },
+  {
+    "qualification_code": 212,
+    "qualification_name": "age",
+    "dalia_demographic_key": "age",
+    "same_value": true
+  },
+  {
+    "qualification_code": 231,
+    "qualification_name": "DMA",
+    "dalia_demographic_key": "dma",
+    "same_value": true
+  },
+  {
+    "qualification_code": 229,
+    "qualification_name": "zipcodes",
+    "dalia_demographic_key": "postal_code",
+    "same_value": true
+  },
+  {
+    "qualification_code": 214,
+    "qualification_name": "race",
+    "dalia_demographic_key": "ethnicity",
+    "same_value": false,
+    "conditions": [
+      {
+        "condition_code": "111",
+        "condition_text": "White",
+        "dalia_demographic_value": "caucasian"
+      },
+      {
+        "condition_code": "112",
+        "condition_text": "Hispanic",
+        "dalia_demographic_value": [
+          "mexican",
+          "cuban",
+          "argentine",
+          "colombian",
+          "ecuadorian",
+          "salvadoran",
+          "guatemalan",
+          "nicaraguan",
+          "panamanian",
+          "peruvian",
+          "spanish",
+          "venezuelan",
+          "other_hispanic_latino_spanish",
+          "hispanic_yes"
+        ]
+      },
+      {
+        "condition_code": "113",
+        "condition_text": "African American",
+        "dalia_demographic_value": "african_american"
+      },
+      {
+        "condition_code": "114",
+        "condition_text": "Asian",
+        "dalia_demographic_value": [
+          "asian_indian",
+          "chinese",
+          "filipino",
+          "japanese",
+          "korean",
+          "vietnamese",
+          "other_asian"
+        ]
+      },
+      {
+        "condition_code": "115",
+        "condition_text": "American Indian",
+        "dalia_demographic_value": "american_indian_alaska"
+      },
+      {
+        "condition_code": "116",
+        "condition_text": "Middle Eastern",
+        "dalia_demographic_value": "other"
+      },
+      {
+        "condition_code": "117",
+        "condition_text": "Other ethnicity",
+        "dalia_demographic_value": [
+          "other",
+          "hawaiian",
+          "guamanian",
+          "samoan",
+          "other_pacific_islander",
+          "hispanic_no",
+          "prefer_no_answer"
+        ]
+      },
+      {
+        "condition_code": "118",
+        "condition_text": "Native American, Inuit or Aleut",
+        "dalia_demographic_value": "american_indian_alaska"
+      },
+      {
+        "condition_code": "119",
+        "condition_text": "Native Hawaiian / Pacific Islander",
+        "dalia_demographic_value": [
+          "hawaiian",
+          "guamanian",
+          "samoan",
+          "Other Pacific Islander"
+        ]
+      },
+      {
+        "condition_code": "120",
+        "condition_text": "Prefer not to answer",
+        "dalia_demographic_value": "prefer_no_answer"
+      }
+    ]
+  },
+  {
+    "qualification_code": 215,
+    "qualification_name": "Employments",
+    "dalia_demographic_key": "full_time_job",
+    "same_value": false,
+    "conditions": [
+      {
+        "condition_code": "111",
+        "condition_text": "Unemployed",
+        "dalia_demographic_value": [
+          "unemployed",
+          "no",
+          "job_unemployed",
+          "job_homemaker",
+          "homemaker",
+          "none",
+          "disabled"
+        ]
+      },
+      {
+        "condition_code": "112",
+        "condition_text": "Student",
+        "dalia_demographic_value": [
+          "student",
+          "job_student"
+        ]
+      },
+      {
+        "condition_code": "113",
+        "condition_text": "Part-Time",
+        "dalia_demographic_value": [
+          "part",
+          "job_part_time",
+          "self_part"
+        ]
+      },
+      {
+        "condition_code": "114",
+        "condition_text": "Full Time",
+        "dalia_demographic_value": [
+          "full",
+          "yes",
+          "job_full_time",
+          "job_self",
+          "self_full",
+          "military"
+        ]
+      },
+      {
+        "condition_code": "115",
+        "condition_text": "Retired",
+        "dalia_demographic_value": [
+          "retired",
+          "veteran",
+          "job_retired"
+        ]
+      },
+      {
+        "condition_code": "116",
+        "condition_text": "Contract, Freelance or Temporary Employee",
+        "dalia_demographic_value": [
+          "no_translation"
+        ]
+      },
+      {
+        "condition_code": "117",
+        "condition_text": "None of the above",
+        "dalia_demographic_value": "no"
+      }
+    ]
+  },
+  {
+    "qualification_code": 233,
+    "qualification_name": "Provinces",
+    "dalia_demographic_key": "region_name",
+    "conditions": [
+      {
+        "condition_code": "1",
+        "dalia_demographic_value": "Alberta",
+        "condition_text": "Alberta"
+      },
+      {
+        "condition_code": "2",
+        "dalia_demographic_value": "British Columbia",
+        "condition_text": "British Columbia"
+      },
+      {
+        "condition_code": "3",
+        "dalia_demographic_value": "Manitoba",
+        "condition_text": "Manitoba"
+      },
+      {
+        "condition_code": "4",
+        "dalia_demographic_value": "New Brunswick",
+        "condition_text": "New Brunswick"
+      },
+      {
+        "condition_code": "5",
+        "dalia_demographic_value": "Newfoundland",
+        "condition_text": "Newfoundland"
+      },
+      {
+        "condition_code": "6",
+        "dalia_demographic_value": "Northwest Territories",
+        "condition_text": "Northwest Territories"
+      },
+      {
+        "condition_code": "7",
+        "dalia_demographic_value": "Nova Scotia",
+        "condition_text": "Nova Scotia"
+      },
+      {
+        "condition_code": "8",
+        "dalia_demographic_value": "Nunavut",
+        "condition_text": "Nunavut"
+      },
+      {
+        "condition_code": "9",
+        "dalia_demographic_value": "Ontario",
+        "condition_text": "Ontario"
+      },
+      {
+        "condition_code": "10",
+        "dalia_demographic_value": "Prince Edward Island",
+        "condition_text": "Prince Edward Island"
+      },
+      {
+        "condition_code": "11",
+        "dalia_demographic_value": "Quebec",
+        "condition_text": "Quebec"
+      },
+      {
+        "condition_code": "12",
+        "dalia_demographic_value": "Saskatchewan",
+        "condition_text": "Saskatchewan"
+      },
+      {
+        "condition_code": "13",
+        "dalia_demographic_value": "Yukon Territory",
+        "condition_text": "Yukon Territory"
+      }
+    ]
+  },
+  {
+    "qualification_code": 218,
+    "qualification_name": "Parental Status",
+    "dalia_demographic_key": "parental_status",
+    "same_value": false,
+    "conditions": [
+      {
+        "condition_code": "111",
+        "condition_text": "No Children",
+        "dalia_demographic_value": [
+          "pregnant",
+          "no_children"
+        ]
+      },
+      {
+        "condition_code": "112",
+        "condition_text": "Have children",
+        "dalia_demographic_value": [
+          "children_under_18",
+          "childrren_above_18",
+          "under_18"
+        ]
+      }
+    ]
+  },
+  {
+    "qualification_code": 250,
+    "qualification_name": "German regions",
+    "dalia_demographic_key": "region_name",
+    "same_value": false,
+    "conditions": [
+      {
+        "condition_code": "111",
+        "condition_text": "Baden-Wurttemberg",
+        "dalia_demographic_value": "Baden-Wurttemberg"
+      },
+      {
+        "condition_code": "112",
+        "condition_text": "Bayern",
+        "dalia_demographic_value": "Bayern"
+      },
+      {
+        "condition_code": "113",
+        "condition_text": "Berlin",
+        "dalia_demographic_value": "Berlin"
+      },
+      {
+        "condition_code": "114",
+        "condition_text": "Brandenburg",
+        "dalia_demographic_value": "Brandenburg"
+      },
+      {
+        "condition_code": "115",
+        "condition_text": "Bremen",
+        "dalia_demographic_value": "Bremen"
+      },
+      {
+        "condition_code": "116",
+        "condition_text": "Hamburg",
+        "dalia_demographic_value": "Hamburg"
+      },
+      {
+        "condition_code": "117",
+        "condition_text": "Hessen",
+        "dalia_demographic_value": "Hessen"
+      },
+      {
+        "condition_code": "118",
+        "condition_text": "Mecklenburg-Vorpommern",
+        "dalia_demographic_value": "Mecklenburg-Vorpommern"
+      },
+      {
+        "condition_code": "119",
+        "condition_text": "Niedersachsen",
+        "dalia_demographic_value": "Niedersachsen"
+      },
+      {
+        "condition_code": "120",
+        "condition_text": "Nordrhein-Westfalen",
+        "dalia_demographic_value": "Nordrhein-Westfalen"
+      },
+      {
+        "condition_code": "121",
+        "condition_text": "Rheinland-Pfalz",
+        "dalia_demographic_value": "Rheinland-Pfalz"
+      },
+      {
+        "condition_code": "122",
+        "condition_text": "Saarland",
+        "dalia_demographic_value": "Saarland"
+      },
+      {
+        "condition_code": "123",
+        "condition_text": "Sachsen",
+        "dalia_demographic_value": "Sachsen"
+      },
+      {
+        "condition_code": "124",
+        "condition_text": "Sachsen-Anhalt",
+        "dalia_demographic_value": "Sachsen-Anhalt"
+      },
+      {
+        "condition_code": "125",
+        "condition_text": "Schleswig-Holstein",
+        "dalia_demographic_value": "Schleswig-Holstein"
+      },
+      {
+        "condition_code": "126",
+        "condition_text": "Thuringen",
+        "dalia_demographic_value": "Thuringen"
+      }
+    ]
+  },
+  {
+    "qualification_code": 216,
+    "qualification_name": "education",
+    "dalia_demographic_key": "education_level",
+    "same_value": false,
+    "conditions": [
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": [
+          "level_7",
+          "level_8",
+          "level_9",
+          "high"
+        ],
+        "condition_text": "Bachelor's degree"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": [
+          "level_10",
+          "high"
+        ],
+        "condition_text": "Master's degree"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": [
+          "level_11",
+          "high"
+        ],
+        "condition_text": "Doctorate degree"
+      },
+      {
+        "condition_code": "113",
+        "condition_text": "Some College",
+        "dalia_demographic_value": [
+          "level_5",
+          "level_6",
+          "medium"
+        ]
+      },
+      {
+        "condition_code": "112",
+        "condition_text": "High School Graduate",
+        "dalia_demographic_value": [
+          "level_4",
+          "medium"
+        ]
+      },
+      {
+        "condition_code": "111",
+        "condition_text": "Some high school",
+        "dalia_demographic_value": [
+          "level_1",
+          "level_2",
+          "level_3",
+          "low"
+        ]
+      }
+    ]
+  },
+  {
+    "qualification_code": 1010,
+    "dalia_demographic_key": "household_type",
+    "qualification_name": "household_type",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": [
+          "owned_apt",
+          "owned_house",
+          "own"
+        ],
+        "condition_text": "owned_apt"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": [
+          "rented_apt",
+          "rented_house",
+          "rent"
+        ],
+        "condition_text": "rented_apt"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": [
+          "with_parents",
+          "other"
+        ],
+        "condition_text": "with_parents"
+      },
+      {
+        "condition_code": "999",
+        "dalia_demographic_value": [
+          "other",
+          "farm",
+          "uni_residence"
+        ],
+        "condition_text": "other"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1032,
+    "dalia_demographic_key": "industry_personal",
+    "qualification_name": "employment_status",
+    "conditions": [
+      {
+        "condition_code": "142",
+        "dalia_demographic_value": "military",
+        "condition_text": "military"
+      },
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "advertising",
+        "condition_text": "advertising"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "aviation",
+        "condition_text": "aviation"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "agriculture_fishing",
+        "condition_text": "agriculture_fishing"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "architecture",
+        "condition_text": "architecture"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "automotive",
+        "condition_text": "automotive"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "accounting",
+        "condition_text": "accounting"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "chemicals_plastics_rubber",
+        "condition_text": "chemicals_plastics_rubber"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "computer_software",
+        "condition_text": "computer_software"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "computer_hardware",
+        "condition_text": "computer_hardware"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": "computer_reseller_software_hardware",
+        "condition_text": "computer_reseller_software_hardware"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": "construction",
+        "condition_text": "construction"
+      },
+      {
+        "condition_code": "122",
+        "dalia_demographic_value": "consulting",
+        "condition_text": "consulting"
+      },
+      {
+        "condition_code": "123",
+        "dalia_demographic_value": [
+          "consumer_packaged_goods",
+          "consumer_electronics"
+        ],
+        "condition_text": "consumer_packaged_goods,consumer_electronics"
+      },
+      {
+        "condition_code": "124",
+        "dalia_demographic_value": "education",
+        "condition_text": "education"
+      },
+      {
+        "condition_code": "125",
+        "dalia_demographic_value": "engineering",
+        "condition_text": "engineering"
+      },
+      {
+        "condition_code": "126",
+        "dalia_demographic_value": "media_entertainment",
+        "condition_text": "media_entertainment"
+      },
+      {
+        "condition_code": "127",
+        "dalia_demographic_value": [
+          "banking_financial",
+          "brokerage"
+        ],
+        "condition_text": "banking_financial,brokerage"
+      },
+      {
+        "condition_code": "128",
+        "dalia_demographic_value": "food_beverage",
+        "condition_text": "food_beverage"
+      },
+      {
+        "condition_code": "129",
+        "dalia_demographic_value": "government_public_sector",
+        "condition_text": "government_public_sector"
+      },
+      {
+        "condition_code": "130",
+        "dalia_demographic_value": "healthcare",
+        "condition_text": "healthcare"
+      },
+      {
+        "condition_code": "131",
+        "dalia_demographic_value": "hospitality_tourism",
+        "condition_text": "hospitality_tourism"
+      },
+      {
+        "condition_code": "132",
+        "dalia_demographic_value": "insurance",
+        "condition_text": "insurance"
+      },
+      {
+        "condition_code": "133",
+        "dalia_demographic_value": "internet",
+        "condition_text": "internet"
+      },
+      {
+        "condition_code": "134",
+        "dalia_demographic_value": "legal_law",
+        "condition_text": "legal_law"
+      },
+      {
+        "condition_code": "135",
+        "dalia_demographic_value": "legal_law",
+        "condition_text": "legal_law"
+      },
+      {
+        "condition_code": "136",
+        "dalia_demographic_value": "bio-tech",
+        "condition_text": "bio-tech"
+      },
+      {
+        "condition_code": "137",
+        "dalia_demographic_value": "carpenting_electrical_installations_vvs",
+        "condition_text": "carpenting_electrical_installations_vvs"
+      },
+      {
+        "condition_code": "138",
+        "dalia_demographic_value": "manufacturing",
+        "condition_text": "manufacturing"
+      },
+      {
+        "condition_code": "139",
+        "dalia_demographic_value": "market_research",
+        "condition_text": "market_research"
+      },
+      {
+        "condition_code": "140",
+        "dalia_demographic_value": "marketing_sales",
+        "condition_text": "marketing_sales"
+      },
+      {
+        "condition_code": "141",
+        "dalia_demographic_value": [
+          "advertising",
+          "marketing_sales"
+        ],
+        "condition_text": "advertising,marketing_sales"
+      },
+      {
+        "condition_code": "143",
+        "dalia_demographic_value": "other",
+        "condition_text": "other"
+      },
+      {
+        "condition_code": "144",
+        "dalia_demographic_value": "non_profit_social_services",
+        "condition_text": "non_profit_social_services"
+      },
+      {
+        "condition_code": "145",
+        "dalia_demographic_value": "other",
+        "condition_text": "other"
+      },
+      {
+        "condition_code": "146",
+        "dalia_demographic_value": "personal_services",
+        "condition_text": "personal_services"
+      },
+      {
+        "condition_code": "147",
+        "dalia_demographic_value": "other",
+        "condition_text": "other"
+      },
+      {
+        "condition_code": "148",
+        "dalia_demographic_value": "printing_publishing",
+        "condition_text": "printing_publishing"
+      },
+      {
+        "condition_code": "149",
+        "dalia_demographic_value": "printing_publishing",
+        "condition_text": "printing_publishing"
+      },
+      {
+        "condition_code": "150",
+        "dalia_demographic_value": "real_estate_property",
+        "condition_text": "real_estate_property"
+      },
+      {
+        "condition_code": "151",
+        "dalia_demographic_value": "retail_wholesale_trade",
+        "condition_text": "retail_wholesale_trade"
+      },
+      {
+        "condition_code": "152",
+        "dalia_demographic_value": [
+          "telecommunications",
+          "communications_information"
+        ],
+        "condition_text": "telecommunications,communications_information"
+      },
+      {
+        "condition_code": "153",
+        "dalia_demographic_value": "fashion_apparel",
+        "condition_text": "fashion_apparel"
+      },
+      {
+        "condition_code": "154",
+        "dalia_demographic_value": "transportation",
+        "condition_text": "transportation"
+      },
+      {
+        "condition_code": "155",
+        "dalia_demographic_value": [
+          "shipping_distribution",
+          "retail_wholesale_trade"
+        ],
+        "condition_text": "shipping_distribution,retail_wholesale_trade"
+      },
+      {
+        "condition_code": "156",
+        "dalia_demographic_value": "hospitality_tourism",
+        "condition_text": "hospitality_tourism"
+      },
+      {
+        "condition_code": "157",
+        "dalia_demographic_value": "shipping_distribution",
+        "condition_text": "shipping_distribution"
+      },
+      {
+        "condition_code": "158",
+        "dalia_demographic_value": "energy_utilities_oil_and_gas",
+        "condition_text": "energy_utilities_oil_and_gas"
+      },
+      {
+        "condition_code": "159",
+        "dalia_demographic_value": "shipping_distribution",
+        "condition_text": "shipping_distribution"
+      },
+      {
+        "condition_code": "160",
+        "dalia_demographic_value": [
+          "shipping_distribution",
+          "retail_wholesale_trade"
+        ],
+        "condition_text": "shipping_distribution,retail_wholesale_trade"
+      },
+      {
+        "condition_code": "999",
+        "dalia_demographic_value": [
+          "other",
+          "do_not_work",
+          "pharmaceuticals",
+          "environmental_services",
+          "security",
+          "information_technology_it",
+          "public_relations",
+          "human_resources"
+        ],
+        "condition_text": "other,do_not_work,pharmaceuticals,environmental_services,security,information_technology_it,public_relations,human_resources"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1035,
+    "dalia_demographic_key": "company_revenue",
+    "qualification_name": "company_revenue",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "value_1",
+        "condition_text": "value_1"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "value_2",
+        "condition_text": "value_2"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "value_3",
+        "condition_text": "value_3"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "value_6",
+        "condition_text": "value_6"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "value_7",
+        "condition_text": "value_7"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": "value_8",
+        "condition_text": "value_8"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": "value_9",
+        "condition_text": "value_9"
+      },
+      {
+        "condition_code": "122",
+        "dalia_demographic_value": "value_10",
+        "condition_text": "value_10"
+      },
+      {
+        "condition_code": "123",
+        "dalia_demographic_value": "value_11",
+        "condition_text": "value_11"
+      },
+      {
+        "condition_code": "124",
+        "dalia_demographic_value": "value_12",
+        "condition_text": "value_12"
+      },
+      {
+        "condition_code": "999",
+        "dalia_demographic_value": "dont_know",
+        "condition_text": "dont_know"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "value_4",
+        "condition_text": "value_4"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "value_4",
+        "condition_text": "value_4"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "value_5",
+        "condition_text": "value_5"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "value_5",
+        "condition_text": "value_5"
+      },
+      {
+        "condition_code": "125",
+        "dalia_demographic_value": "value_13",
+        "condition_text": "value_13"
+      },
+      {
+        "condition_code": "126",
+        "dalia_demographic_value": "value_13",
+        "condition_text": "value_13"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1036,
+    "dalia_demographic_key": "company_department",
+    "qualification_name": "company_department",
+    "conditions": [
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "legal",
+        "condition_text": "legal"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": "bus_dev",
+        "condition_text": "bus_dev"
+      },
+      {
+        "condition_code": "128",
+        "dalia_demographic_value": "operations",
+        "condition_text": "operations"
+      },
+      {
+        "condition_code": "129",
+        "dalia_demographic_value": "tech_hard",
+        "condition_text": "tech_hard"
+      },
+      {
+        "condition_code": "131",
+        "dalia_demographic_value": "tech_soft",
+        "condition_text": "tech_soft"
+      },
+      {
+        "condition_code": "135",
+        "dalia_demographic_value": "client_service",
+        "condition_text": "client_service"
+      },
+      {
+        "condition_code": "143",
+        "dalia_demographic_value": "exec",
+        "condition_text": "exec"
+      },
+      {
+        "condition_code": "145",
+        "dalia_demographic_value": "finance_accounting",
+        "condition_text": "finance_accounting"
+      },
+      {
+        "condition_code": "148",
+        "dalia_demographic_value": "human_resources",
+        "condition_text": "human_resources"
+      },
+      {
+        "condition_code": "15",
+        "dalia_demographic_value": "tech_implement",
+        "condition_text": "tech_implement"
+      },
+      {
+        "condition_code": "149",
+        "dalia_demographic_value": "tech_implement",
+        "condition_text": "tech_implement"
+      },
+      {
+        "condition_code": "153",
+        "dalia_demographic_value": "marketing",
+        "condition_text": "marketing"
+      },
+      {
+        "condition_code": "184",
+        "dalia_demographic_value": "no_work",
+        "condition_text": "no_work"
+      },
+      {
+        "condition_code": "999",
+        "dalia_demographic_value": "other",
+        "condition_text": "other"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "admin",
+        "condition_text": "admin"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "admin",
+        "condition_text": "admin"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1037,
+    "dalia_demographic_key": "company_department",
+    "qualification_name": "b2b_decision_maker",
+    "conditions": [
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "marketing",
+        "condition_text": "marketing"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": [
+          "it_hardware",
+          "it_software",
+          "tech_soft",
+          "software",
+          "tech_hard",
+          "hardware"
+        ],
+        "condition_text": "it_hardware"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": [
+          "legal",
+          "legal_law"
+        ],
+        "condition_text": "legal"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": [
+          "office_supplies",
+          "procurement"
+        ],
+        "condition_text": "office_supplies"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": "operations",
+        "condition_text": "operations"
+      },
+      {
+        "condition_code": "122",
+        "dalia_demographic_value": [
+          "printers",
+          "finance",
+          "administration",
+          "admin"
+        ],
+        "condition_text": "printers"
+      },
+      {
+        "condition_code": "124",
+        "dalia_demographic_value": "sales",
+        "condition_text": "sales"
+      },
+      {
+        "condition_code": "127",
+        "dalia_demographic_value": [
+          "telecom",
+          "technology_implementation",
+          "tech_implement"
+        ],
+        "condition_text": "telecom"
+      },
+      {
+        "condition_code": "999",
+        "dalia_demographic_value": [
+          "other",
+          "dont_work",
+          "no_work"
+        ],
+        "condition_text": "other"
+      },
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": [
+          "finance",
+          "finance_accounting"
+        ],
+        "condition_text": "finance"
+      },
+      {
+        "condition_code": "126",
+        "dalia_demographic_value": [
+          "finance",
+          "technology_implementation",
+          "tech_implement",
+          "tech_soft",
+          "tech_hard"
+        ],
+        "condition_text": "finance"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": [
+          "hr",
+          "human_resources"
+        ],
+        "condition_text": "hr"
+      },
+      {
+        "condition_code": "125",
+        "dalia_demographic_value": [
+          "hr",
+          "human_resources"
+        ],
+        "condition_text": "hr"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": [
+          "administration",
+          "admin",
+          "human_resources",
+          "hr"
+        ],
+        "condition_text": "administration,admin,human_resources,hr"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": [
+          "customer_Service",
+          "client_service"
+        ],
+        "condition_text": "customer_Service,client_service"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": [
+          "executive",
+          "exec"
+        ],
+        "condition_text": "executive,exec"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": [
+          "administration",
+          "admin"
+        ],
+        "condition_text": "administration,admin"
+      },
+      {
+        "condition_code": "123",
+        "dalia_demographic_value": "bus_dev",
+        "condition_text": "bus_dev"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1039,
+    "dalia_demographic_key": "diagnosed_ailments_II",
+    "qualification_name": "diagnosed_ailments",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "allergies_nohayfever",
+        "condition_text": "allergies_nohayfever"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "asthma",
+        "condition_text": "asthma"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "multiple_sclerosis",
+        "condition_text": "multiple_sclerosis"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "anemia",
+        "condition_text": "anemia"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "arthritis",
+        "condition_text": "arthritis"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "cancer",
+        "condition_text": "cancer"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": [
+          "cardio_disease",
+          "heart_conditions",
+          "heart_failure"
+        ],
+        "condition_text": "cardio_disease"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "migraine",
+        "condition_text": "migraine"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "diabetes",
+        "condition_text": "diabetes"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": [
+          "constipation",
+          "diarrhea",
+          "gastro"
+        ],
+        "condition_text": "constipation"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": [
+          "alzheimer",
+          "dementia",
+          "depression",
+          "motor_neuron",
+          "parkinsons",
+          "schizo"
+        ],
+        "condition_text": "alzheimer"
+      },
+      {
+        "condition_code": "123",
+        "dalia_demographic_value": [
+          "hepatitis",
+          "hiv",
+          "syphilis",
+          "tuberculosis"
+        ],
+        "condition_text": "hepatitis"
+      },
+      {
+        "condition_code": "124",
+        "dalia_demographic_value": [
+          "chronic_kidney",
+          "kidney_failure",
+          "bladder",
+          "urinary"
+        ],
+        "condition_text": "chronic_kidney"
+      },
+      {
+        "condition_code": "125",
+        "dalia_demographic_value": [
+          "erectile_dys",
+          "impotence",
+          "pre_ejac",
+          "infertility"
+        ],
+        "condition_text": "erectile_dys"
+      },
+      {
+        "condition_code": "129",
+        "dalia_demographic_value": [
+          "infertility",
+          "menopause",
+          "osteoporosis"
+        ],
+        "condition_text": "infertility"
+      },
+      {
+        "condition_code": "126",
+        "dalia_demographic_value": [
+          "acne",
+          "eczema",
+          "psoriasis"
+        ],
+        "condition_text": "acne"
+      },
+      {
+        "condition_code": "127",
+        "dalia_demographic_value": "sleeping_disorder",
+        "condition_text": "sleeping_disorder"
+      },
+      {
+        "condition_code": "130",
+        "dalia_demographic_value": "other",
+        "condition_text": "other"
+      },
+      {
+        "condition_code": "999",
+        "dalia_demographic_value": [
+          "no_illness",
+          "none"
+        ],
+        "condition_text": "no_illness"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1047,
+    "dalia_demographic_key": "flight_purpose",
+    "qualification_name": "flight_purpose",
+    "conditions": [
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "leisure",
+        "condition_text": "leisure"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "leisure",
+        "condition_text": "leisure"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1052,
+    "dalia_demographic_key": "relationship",
+    "qualification_name": "relationship",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "single_nevermarried",
+        "condition_text": "single_nevermarried"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "domestic_partnership",
+        "condition_text": "domestic_partnership"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "married",
+        "condition_text": "married"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "separated_widowed",
+        "condition_text": "separated_widowed"
+      },
+      {
+        "condition_code": "999",
+        "dalia_demographic_value": "no_answer",
+        "condition_text": "no_answer"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1064,
+    "dalia_demographic_key": "full_time_job",
+    "qualification_name": "employment_status",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": [
+          "full",
+          "yes",
+          "job_full_time"
+        ],
+        "condition_text": "full"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": [
+          "part",
+          "job_part_time"
+        ],
+        "condition_text": "part"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": [
+          "self_full",
+          "self_part",
+          "job_self"
+        ],
+        "condition_text": "self_full"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": [
+          "retired",
+          "job_retired"
+        ],
+        "condition_text": "retired"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": [
+          "student",
+          "job_student"
+        ],
+        "condition_text": "student"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": [
+          "homemaker",
+          "job_homemaker"
+        ],
+        "condition_text": "homemaker"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "disabled",
+        "condition_text": "disabled"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": [
+          "unemployed",
+          "none",
+          "no",
+          "job_unemployed"
+        ],
+        "condition_text": "unemployed"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": [
+          "job_part_time",
+          "part"
+        ],
+        "condition_text": "job_part_time,part"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": [
+          "military",
+          "veteran"
+        ],
+        "condition_text": "military,veteran"
+      }
+    ]
+  },
+  {
+    "qualification_code": 252,
+    "dalia_demographic_key": "region_name",
+    "qualification_name": "region_name",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "Andalucia",
+        "condition_text": "Andalucia"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "Aragon",
+        "condition_text": "Aragon"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "Cantabria",
+        "condition_text": "Cantabria"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "Castilla-La Mancha",
+        "condition_text": "Castilla-La Mancha"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "Castilla y Leon",
+        "condition_text": "Castilla y Leon"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "Catalonia",
+        "condition_text": "Catalonia"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "Madrid",
+        "condition_text": "Madrid"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "Navarra",
+        "condition_text": "Navarra"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": "Comunidad Valenciana",
+        "condition_text": "Comunidad Valenciana"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": "Extremadura",
+        "condition_text": "Extremadura"
+      },
+      {
+        "condition_code": "122",
+        "dalia_demographic_value": "Galicia",
+        "condition_text": "Galicia"
+      },
+      {
+        "condition_code": "123",
+        "dalia_demographic_value": "Islas Baleares",
+        "condition_text": "Islas Baleares"
+      },
+      {
+        "condition_code": "124",
+        "dalia_demographic_value": "Canarias",
+        "condition_text": "Canarias"
+      },
+      {
+        "condition_code": "125",
+        "dalia_demographic_value": "La Rioja",
+        "condition_text": "La Rioja"
+      },
+      {
+        "condition_code": "127",
+        "dalia_demographic_value": "Pais Vasco",
+        "condition_text": "Pais Vasco"
+      },
+      {
+        "condition_code": "128",
+        "dalia_demographic_value": "Asturias",
+        "condition_text": "Asturias"
+      },
+      {
+        "condition_code": "129",
+        "dalia_demographic_value": "Murcia",
+        "condition_text": "Murcia"
+      }
+    ]
+  },
+  {
+    "qualification_code": 282,
+    "dalia_demographic_key": "region_name",
+    "qualification_name": "region_name",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": [
+          "Beijing",
+          "Tianjin",
+          "Hebei",
+          "Shanxi",
+          "Inner Mongolia"
+        ],
+        "condition_text": "Beijing, Tianjin, Hebei, Shanxi, Inner Mongolia"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": [
+          "Liaoning",
+          "Jilin",
+          "Heilongjiang"
+        ],
+        "condition_text": "Liaoning, Jilin, Heilongjiang"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": [
+          "Shanghai",
+          "Jiangsu",
+          "Zhejiang",
+          "Anhui",
+          "Fujian",
+          "Jiangxi",
+          "Shandong"
+        ],
+        "condition_text": "Shanghai, Jiangsu, Zhejiang, Anhui, Fujian, Jiangxi, Shandong"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": [
+          "Henan",
+          "Hubei",
+          "Hunan",
+          "Guangdong",
+          "Guangxi",
+          "Hainan"
+        ],
+        "condition_text": "Henan, Hubei, Hunan, Guangdong, Guangxi, Hainan"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": [
+          "Chongqing",
+          "Sichuan",
+          "Guizhou",
+          "Yunnan",
+          "Tibet"
+        ],
+        "condition_text": "Chongqing, Sichuan, Guizhou, Yunnan, Tibet"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": [
+          "Shaanxi",
+          "Gansu",
+          "Qinghai",
+          "Ningxia",
+          "Xinjiang"
+        ],
+        "condition_text": "Shaanxi, Gansu, Qinghai, Ningxia, Xinjiang"
+      }
+    ]
+  },
+  {
+    "qualification_code": 266,
+    "dalia_demographic_key": "region_name",
+    "qualification_name": "region_name",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "Anhui",
+        "condition_text": "Anhui"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "Beijing",
+        "condition_text": "Beijing"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "Chongqing",
+        "condition_text": "Chongqing"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "Fujian",
+        "condition_text": "Fujian"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "Gansu",
+        "condition_text": "Gansu"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "Guangdong",
+        "condition_text": "Guangdong"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "Guangxi",
+        "condition_text": "Guangxi"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "Guizhou",
+        "condition_text": "Guizhou"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "Hainan",
+        "condition_text": "Hainan"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": "Hebei",
+        "condition_text": "Hebei"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": "Heilongjiang",
+        "condition_text": "Heilongjiang"
+      },
+      {
+        "condition_code": "122",
+        "dalia_demographic_value": "Henan",
+        "condition_text": "Henan"
+      },
+      {
+        "condition_code": "123",
+        "dalia_demographic_value": "Hubei",
+        "condition_text": "Hubei"
+      },
+      {
+        "condition_code": "124",
+        "dalia_demographic_value": "Hunan",
+        "condition_text": "Hunan"
+      },
+      {
+        "condition_code": "125",
+        "dalia_demographic_value": "Nei Mongol",
+        "condition_text": "Nei Mongol"
+      },
+      {
+        "condition_code": "126",
+        "dalia_demographic_value": "Jiangsu",
+        "condition_text": "Jiangsu"
+      },
+      {
+        "condition_code": "127",
+        "dalia_demographic_value": "Jiangxi",
+        "condition_text": "Jiangxi"
+      },
+      {
+        "condition_code": "128",
+        "dalia_demographic_value": "Jilin",
+        "condition_text": "Jilin"
+      },
+      {
+        "condition_code": "129",
+        "dalia_demographic_value": "Liaoning",
+        "condition_text": "Liaoning"
+      },
+      {
+        "condition_code": "130",
+        "dalia_demographic_value": "Ningxia",
+        "condition_text": "Ningxia"
+      },
+      {
+        "condition_code": "131",
+        "dalia_demographic_value": "Qinghai",
+        "condition_text": "Qinghai"
+      },
+      {
+        "condition_code": "132",
+        "dalia_demographic_value": "Shaanxi",
+        "condition_text": "Shaanxi"
+      },
+      {
+        "condition_code": "133",
+        "dalia_demographic_value": "Shandong",
+        "condition_text": "Shandong"
+      },
+      {
+        "condition_code": "134",
+        "dalia_demographic_value": "Shanghai",
+        "condition_text": "Shanghai"
+      },
+      {
+        "condition_code": "135",
+        "dalia_demographic_value": "Shanxi",
+        "condition_text": "Shanxi"
+      },
+      {
+        "condition_code": "136",
+        "dalia_demographic_value": "Sichuan",
+        "condition_text": "Sichuan"
+      },
+      {
+        "condition_code": "137",
+        "dalia_demographic_value": "Tianjin",
+        "condition_text": "Tianjin"
+      },
+      {
+        "condition_code": "138",
+        "dalia_demographic_value": "Xizang",
+        "condition_text": "Xizang"
+      },
+      {
+        "condition_code": "139",
+        "dalia_demographic_value": "Xinjiang",
+        "condition_text": "Xinjiang"
+      },
+      {
+        "condition_code": "140",
+        "dalia_demographic_value": "Yunnan",
+        "condition_text": "Yunnan"
+      },
+      {
+        "condition_code": "141",
+        "dalia_demographic_value": "Zhejiang",
+        "condition_text": "Zhejiang"
+      }
+    ]
+  },
+  {
+    "qualification_code": 271,
+    "dalia_demographic_key": "region_name",
+    "qualification_name": "region_name",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "Australian Capital Territory",
+        "condition_text": "Australian Capital Territory"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "New South Wales",
+        "condition_text": "New South Wales"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "Northern Territory",
+        "condition_text": "Northern Territory"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "Queensland",
+        "condition_text": "Queensland"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "South Australia",
+        "condition_text": "South Australia"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "Tasmania",
+        "condition_text": "Tasmania"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "Victoria",
+        "condition_text": "Victoria"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "Western Australia",
+        "condition_text": "Western Australia"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1264,
+    "dalia_demographic_key": "region_name",
+    "qualification_name": "region_name",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "Abu Dhabi",
+        "condition_text": "Abu Dhabi"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "Ajman",
+        "condition_text": "Ajman"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "Dubai",
+        "condition_text": "Dubai"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "Fujairah",
+        "condition_text": "Fujairah"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "Ras Al Khaimah",
+        "condition_text": "Ras Al Khaimah"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "Sharjah",
+        "condition_text": "Sharjah"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "Umm Al Quwain",
+        "condition_text": "Umm Al Quwain"
+      }
+    ]
+  },
+  {
+    "qualification_code": 256,
+    "dalia_demographic_key": "region_name",
+    "qualification_name": "region_name",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": [
+          "Valle d'Aosta",
+          "Liguria",
+          "Lombardia",
+          "Piemonte"
+        ],
+        "condition_text": "Valle d'Aosta, Liguria, Lombardia, Piemonte"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": [
+          "Emilia-Romagna",
+          "Friuli-Venezia Giulia",
+          "Trentino-Alto Adige",
+          "Veneto"
+        ],
+        "condition_text": "Emilia-Romagna, Friuli-Venezia Giulia, Trentino-Alto Adige, Veneto"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": [
+          "Lazio",
+          "Marche",
+          "Toscana",
+          "Umbria"
+        ],
+        "condition_text": "Lazio, Marche, Toscana, Umbria"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": [
+          "Abruzzi",
+          "Puglia",
+          "Basilicata",
+          "Calabria",
+          "Campania",
+          "Molise"
+        ],
+        "condition_text": "Abruzzi, Puglia, Basilicata, Calabria, Campania, Molise"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": [
+          "Sardegna",
+          "Sicilia"
+        ],
+        "condition_text": "Sardegna, Sicilia"
+      }
+    ]
+  },
+  {
+    "qualification_code": 257,
+    "dalia_demographic_key": "region_name",
+    "qualification_name": "region_name",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "Valle d'Aosta",
+        "condition_text": "Valle d'Aosta"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "Liguria",
+        "condition_text": "Liguria"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "Lombardia",
+        "condition_text": "Lombardia"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "Piemonte",
+        "condition_text": "Piemonte"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "Emilia-Romagna",
+        "condition_text": "Emilia-Romagna"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "Friuli-Venezia Giulia",
+        "condition_text": "Friuli-Venezia Giulia"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "Trentino-Alto Adige",
+        "condition_text": "Trentino-Alto Adige"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "Veneto",
+        "condition_text": "Veneto"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "Lazio",
+        "condition_text": "Lazio"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": "Marche",
+        "condition_text": "Marche"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": "Toscana",
+        "condition_text": "Toscana"
+      },
+      {
+        "condition_code": "122",
+        "dalia_demographic_value": "Umbria",
+        "condition_text": "Umbria"
+      },
+      {
+        "condition_code": "123",
+        "dalia_demographic_value": "Abruzzi",
+        "condition_text": "Abruzzi"
+      },
+      {
+        "condition_code": "124",
+        "dalia_demographic_value": "Puglia",
+        "condition_text": "Puglia"
+      },
+      {
+        "condition_code": "125",
+        "dalia_demographic_value": "Basilicata",
+        "condition_text": "Basilicata"
+      },
+      {
+        "condition_code": "126",
+        "dalia_demographic_value": "Calabria",
+        "condition_text": "Calabria"
+      },
+      {
+        "condition_code": "127",
+        "dalia_demographic_value": "Campania",
+        "condition_text": "Campania"
+      },
+      {
+        "condition_code": "128",
+        "dalia_demographic_value": "Molise",
+        "condition_text": "Molise"
+      },
+      {
+        "condition_code": "129",
+        "dalia_demographic_value": "Sardegna",
+        "condition_text": "Sardegna"
+      },
+      {
+        "condition_code": "130",
+        "dalia_demographic_value": "Sicilia",
+        "condition_text": "Sicilia"
+      }
+    ]
+  },
+  {
+    "qualification_code": 264,
+    "dalia_demographic_key": "region_name",
+    "qualification_name": "region_name",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": [
+          "Niigata",
+          "Toyama",
+          "Ishikawa",
+          "Fukui",
+          "Yamanashi",
+          "Nagano",
+          "Gifu",
+          "Shizuoka",
+          "Aichi"
+        ],
+        "condition_text": "Niigata, Toyama, Ishikawa, Fukui, Yamanashi, Nagano, Gifu, Shizuoka, Aichi"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": [
+          "Tottori",
+          "Shimane",
+          "Okayama",
+          "Hiroshima",
+          "Yamaguchi"
+        ],
+        "condition_text": "Tottori, Shimane, Okayama, Hiroshima, Yamaguchi"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "Hokkaido",
+        "condition_text": "Hokkaido"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": [
+          "Mie",
+          "Shiga",
+          "Kyoto",
+          "Osaka",
+          "Hyogo",
+          "Nara",
+          "Wakayama"
+        ],
+        "condition_text": "Mie, Shiga, Kyoto, Osaka, Hyogo, Nara, Wakayama"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": [
+          "Ibaraki",
+          "Tochigi",
+          "Gumma",
+          "Saitama",
+          "Chiba",
+          "Tokyo",
+          "Kanagawa"
+        ],
+        "condition_text": "Ibaraki, Tochigi, Gumma, Saitama, Chiba, Tokyo, Kanagawa"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": [
+          "Fukuoka",
+          "Miyazaki",
+          "Nagasaki",
+          "Kumamoto",
+          "Kagoshima",
+          "Saga",
+          "Oita",
+          "Okinawa"
+        ],
+        "condition_text": "Fukuoka, Miyazaki, Nagasaki, Kumamoto, Kagoshima, Saga, Oita, Okinawa"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": [
+          "Tokushima",
+          "Kagawa",
+          "Ehime",
+          "Kochi"
+        ],
+        "condition_text": "Tokushima, Kagawa, Ehime, Kochi"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": [
+          "Aomori",
+          "Iwate",
+          "Miyagi",
+          "Akita",
+          "Yamagata",
+          "Fukushima"
+        ],
+        "condition_text": "Aomori, Iwate, Miyagi, Akita, Yamagata, Fukushima"
+      }
+    ]
+  },
+  {
+    "qualification_code": 260,
+    "dalia_demographic_key": "region_name",
+    "qualification_name": "region_name",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "Distrito Federal",
+        "condition_text": "Distrito Federal"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "Acre",
+        "condition_text": "Acre"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "Alagoas",
+        "condition_text": "Alagoas"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "Amapa",
+        "condition_text": "Amapa"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "Amazonas",
+        "condition_text": "Amazonas"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "Bahia",
+        "condition_text": "Bahia"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "Ceara",
+        "condition_text": "Ceara"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "Espirito Santo",
+        "condition_text": "Espirito Santo"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "Goias",
+        "condition_text": "Goias"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": "Maranhao",
+        "condition_text": "Maranhao"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": "Mato Grosso",
+        "condition_text": "Mato Grosso"
+      },
+      {
+        "condition_code": "122",
+        "dalia_demographic_value": "Mato Grosso do Sul",
+        "condition_text": "Mato Grosso do Sul"
+      },
+      {
+        "condition_code": "123",
+        "dalia_demographic_value": "Minas Gerais",
+        "condition_text": "Minas Gerais"
+      },
+      {
+        "condition_code": "124",
+        "dalia_demographic_value": "Para",
+        "condition_text": "Para"
+      },
+      {
+        "condition_code": "125",
+        "dalia_demographic_value": "Paraiba",
+        "condition_text": "Paraiba"
+      },
+      {
+        "condition_code": "126",
+        "dalia_demographic_value": "Parana",
+        "condition_text": "Parana"
+      },
+      {
+        "condition_code": "127",
+        "dalia_demographic_value": "Pernambuco",
+        "condition_text": "Pernambuco"
+      },
+      {
+        "condition_code": "128",
+        "dalia_demographic_value": "Piaui",
+        "condition_text": "Piaui"
+      },
+      {
+        "condition_code": "129",
+        "dalia_demographic_value": "Rio de Janeiro",
+        "condition_text": "Rio de Janeiro"
+      },
+      {
+        "condition_code": "130",
+        "dalia_demographic_value": "Rio Grande do Norte",
+        "condition_text": "Rio Grande do Norte"
+      },
+      {
+        "condition_code": "131",
+        "dalia_demographic_value": "Rio Grande do Sul",
+        "condition_text": "Rio Grande do Sul"
+      },
+      {
+        "condition_code": "132",
+        "dalia_demographic_value": "Rondonia",
+        "condition_text": "Rondonia"
+      },
+      {
+        "condition_code": "133",
+        "dalia_demographic_value": "Roraima",
+        "condition_text": "Roraima"
+      },
+      {
+        "condition_code": "134",
+        "dalia_demographic_value": "Santa Catarina",
+        "condition_text": "Santa Catarina"
+      },
+      {
+        "condition_code": "135",
+        "dalia_demographic_value": "Sao Paulo",
+        "condition_text": "Sao Paulo"
+      },
+      {
+        "condition_code": "136",
+        "dalia_demographic_value": "Sergipe",
+        "condition_text": "Sergipe"
+      },
+      {
+        "condition_code": "137",
+        "dalia_demographic_value": "Tocantins",
+        "condition_text": "Tocantins"
+      }
+    ]
+  },
+  {
+    "qualification_code": 263,
+    "dalia_demographic_key": "region_name",
+    "qualification_name": "region_name",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "Blekinge Lan",
+        "condition_text": "Blekinge Lan"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "Dalarnas Lan",
+        "condition_text": "Dalarnas Lan"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "Gavleborgs Lan",
+        "condition_text": "Gavleborgs Lan"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "Gotlands Lan",
+        "condition_text": "Gotlands Lan"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "Hallands Lan",
+        "condition_text": "Hallands Lan"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "Jamtlands Lan",
+        "condition_text": "Jamtlands Lan"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "Jonkopings Lan",
+        "condition_text": "Jonkopings Lan"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "Kalmar Lan",
+        "condition_text": "Kalmar Lan"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "Kronobergs Lan",
+        "condition_text": "Kronobergs Lan"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": "Norrbottens Lan",
+        "condition_text": "Norrbottens Lan"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": "Orebro Lan",
+        "condition_text": "Orebro Lan"
+      },
+      {
+        "condition_code": "122",
+        "dalia_demographic_value": "Ostergotlands Lan",
+        "condition_text": "Ostergotlands Lan"
+      },
+      {
+        "condition_code": "123",
+        "dalia_demographic_value": "Skane Lan",
+        "condition_text": "Skane Lan"
+      },
+      {
+        "condition_code": "124",
+        "dalia_demographic_value": "Sodermanlands Lan",
+        "condition_text": "Sodermanlands Lan"
+      },
+      {
+        "condition_code": "125",
+        "dalia_demographic_value": "Stockholms Lan",
+        "condition_text": "Stockholms Lan"
+      },
+      {
+        "condition_code": "126",
+        "dalia_demographic_value": "Uppsala Lan",
+        "condition_text": "Uppsala Lan"
+      },
+      {
+        "condition_code": "127",
+        "dalia_demographic_value": "Varmlands Lan",
+        "condition_text": "Varmlands Lan"
+      },
+      {
+        "condition_code": "128",
+        "dalia_demographic_value": "Vasterbottens Lan",
+        "condition_text": "Vasterbottens Lan"
+      },
+      {
+        "condition_code": "129",
+        "dalia_demographic_value": "Vasternorrlands Lan",
+        "condition_text": "Vasternorrlands Lan"
+      },
+      {
+        "condition_code": "130",
+        "dalia_demographic_value": "Vastmanlands Lan",
+        "condition_text": "Vastmanlands Lan"
+      },
+      {
+        "condition_code": "131",
+        "dalia_demographic_value": "Vastra Gotaland",
+        "condition_text": "Vastra Gotaland"
+      }
+    ]
+  },
+  {
+    "qualification_code": 237,
+    "dalia_demographic_key": "region_name",
+    "qualification_name": "region_name",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": [
+          "London, City of",
+          "Camden",
+          "Barnet",
+          "Bexley",
+          "Bromley",
+          "Brent",
+          "Barking and Dagenham",
+          "Croydon",
+          "Ealing",
+          "Enfield",
+          "Hackney",
+          "Harrow",
+          "Greenwich",
+          "Hammersmith and Fulham",
+          "Haringey",
+          "Havering",
+          "Islington",
+          "Hounslow",
+          "Hillingdon",
+          "Kensington and Chelsea",
+          "Lambeth",
+          "City of London",
+          "Lewisham",
+          "Merton",
+          "Newham",
+          "Redbridge",
+          "Richmond upon Thames",
+          "Southwark",
+          "Sutton",
+          "Tower Hamlets",
+          "Waltham Forest",
+          "Wandsworth",
+          "Westminster"
+        ],
+        "condition_text": "London(,) City of,Camden,Barnet,Bexley,Bromley,Brent,Barking and Dagenham,Croydon,Ealing,Enfield,Hackney,Harrow,Greenwich,Hammersmith and Fulham,Haringey,Havering,Islington,Hounslow,Hillingdon,Kensington and Chelsea,Lambeth,City of London,Lewisham,Merton,Newham,Redbridge,Richmond upon Thames,Southwark,Sutton,Tower Hamlets,Waltham Forest,Wandsworth,Westminster"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": [
+          "Brighton and Hove",
+          "Buckinghamshire",
+          "Bracknell Forest",
+          "East Sussex",
+          "Hampshire",
+          "Isle of Wight",
+          "Kent",
+          "Kingston upon Thames",
+          "Medway",
+          "Milton Keynes",
+          "Portsmouth",
+          "Oxfordshire",
+          "Surrey",
+          "West Sussex",
+          "Reading",
+          "Slough",
+          "Southampton",
+          "West Berkshire",
+          "Windsor and Maidenhead",
+          "Wokingham"
+        ],
+        "condition_text": "Brighton and Hove,Buckinghamshire,Bracknell Forest,East Sussex,Hampshire,Isle of Wight,Kent,Kingston upon Thames,Medway,Milton Keynes,Portsmouth,Oxfordshire,Surrey,West Sussex,Reading,Slough,Southampton,West Berkshire,Windsor and Maidenhead,Wokingham"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": [
+          "Bedfordshire",
+          "Cambridgeshire",
+          "Essex",
+          "Hertford",
+          "Lincolnshire",
+          "Luton",
+          "Norfolk",
+          "North East Lincolnshire",
+          "North Lincolnshire",
+          "Peterborough",
+          "Southend-on-Sea",
+          "Suffolk",
+          "Thurrock",
+          "Central Bedfordshire"
+        ],
+        "condition_text": "Bedfordshire,Cambridgeshire,Essex,Hertford,Lincolnshire,Luton,Norfolk,North East Lincolnshire,North Lincolnshire,Peterborough,Southend-on-Sea,Suffolk,Thurrock,Central Bedfordshire"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": [
+          "Bristol, City of",
+          "Bath and North East Somerset",
+          "Cornwall",
+          "City of Bristol",
+          "Bournemouth",
+          "Devon",
+          "Dorset",
+          "Gloucestershire",
+          "North Somerset",
+          "Plymouth",
+          "Poole",
+          "Somerset",
+          "South Gloucestershire",
+          "Torbay",
+          "Swindon",
+          "Wiltshire",
+          "Isles of Scilly"
+        ],
+        "condition_text": "Bristol(,) City of,Bath and North East Somerset,Cornwall,City of Bristol,Bournemouth,Devon,Dorset,Gloucestershire,North Somerset,Plymouth,Poole,Somerset,South Gloucestershire,Torbay,Swindon,Wiltshire,Isles of Scilly"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": [
+          "Blackpool",
+          "Bury",
+          "Bolton",
+          "Cheshire",
+          "Cumbria",
+          "Blackburn with Darwen",
+          "Knowsley",
+          "Halton",
+          "Liverpool",
+          "Manchester",
+          "Oldham",
+          "Rochdale",
+          "Salford",
+          "Sefton",
+          "Trafford",
+          "Shropshire",
+          "St. Helens",
+          "Stockport",
+          "Tameside",
+          "Warrington",
+          "Wigan",
+          "Wirral",
+          "Lancashire",
+          "Cheshire East",
+          "Cheshire West and Chester"
+        ],
+        "condition_text": "Blackpool,Bury,Bolton,Cheshire,Cumbria,Blackburn with Darwen,Knowsley,Halton,Liverpool,Manchester,Oldham,Rochdale,Salford,Sefton,Trafford,Shropshire,St. Helens,Stockport,Tameside,Warrington,Wigan,Wirral,Lancashire,Cheshire East,Cheshire West and Chester"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": [
+          "Derby",
+          "Derbyshire",
+          "Leicester",
+          "Leicestershire",
+          "Nottingham",
+          "Nottinghamshire",
+          "Northamptonshire",
+          "Rutland"
+        ],
+        "condition_text": "Derby,Derbyshire,Leicester,Leicestershire,Nottingham,Nottinghamshire,Northamptonshire,Rutland"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": [
+          "Birmingham",
+          "Coventry",
+          "Dudley",
+          "Herefordshire",
+          "Sandwell",
+          "Solihull",
+          "Staffordshire",
+          "Stoke-on-Trent",
+          "Telford and Wrekin",
+          "Walsall",
+          "Warwickshire",
+          "Wolverhampton",
+          "Worcestershire"
+        ],
+        "condition_text": "Birmingham,Coventry,Dudley,Herefordshire,Sandwell,Solihull,Staffordshire,Stoke-on-Trent,Telford and Wrekin,Walsall,Warwickshire,Wolverhampton,Worcestershire"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": [
+          "Kingston upon Hull, City of",
+          "Barnsley",
+          "Bradford",
+          "York",
+          "Calderdale",
+          "East Riding of Yorkshire",
+          "Doncaster",
+          "City of Kingston upon Hull",
+          "Leeds",
+          "Kirklees",
+          "North Yorkshire",
+          "Northumberland",
+          "Redcar and Cleveland",
+          "Rotherham",
+          "Sheffield",
+          "Wakefield"
+        ],
+        "condition_text": "Kingston upon Hull(,) City of,Barnsley,Bradford,York,Calderdale,East Riding of Yorkshire,Doncaster,City of Kingston upon Hull,Leeds,Kirklees,North Yorkshire,Northumberland,Redcar and Cleveland,Rotherham,Sheffield,Wakefield"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": [
+          "Darlington",
+          "Durham",
+          "Gateshead",
+          "Hartlepool",
+          "Newcastle upon Tyne",
+          "North Tyneside",
+          "Sunderland",
+          "South Tyneside",
+          "Stockton-on-Tees",
+          "Middlesbrough"
+        ],
+        "condition_text": "Darlington,Durham,Gateshead,Hartlepool,Newcastle upon Tyne,North Tyneside,Sunderland,South Tyneside,Stockton-on-Tees,Middlesbrough"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": [
+          "Cardiff",
+          "Blaenau Gwent",
+          "Caerphilly",
+          "Conwy",
+          "Bridgend",
+          "Carmarthenshire",
+          "Ceredigion",
+          "Denbighshire",
+          "Flintshire",
+          "Isle of Anglesey",
+          "Gwynedd",
+          "Merthyr Tydfil",
+          "Monmouthshire",
+          "Neath Port Talbot",
+          "Newport",
+          "Pembrokeshire",
+          "Powys",
+          "Rhondda Cynon Taff",
+          "Swansea",
+          "Torfaen",
+          "Vale of Glamorgan, The",
+          "Wrexham"
+        ],
+        "condition_text": "Cardiff,Blaenau Gwent,Caerphilly,Conwy,Bridgend,Carmarthenshire,Ceredigion,Denbighshire,Flintshire,Isle of Anglesey,Gwynedd,Merthyr Tydfil,Monmouthshire,Neath Port Talbot,Newport,Pembrokeshire,Powys,Rhondda Cynon Taff,Swansea,Torfaen,Vale of Glamorgan(,) The, Wrexham"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": [
+          "Scottish Borders, The",
+          "Aberdeen City",
+          "Aberdeenshire",
+          "Angus",
+          "Argyll and Bute",
+          "Glasgow City",
+          "Clackmannanshire",
+          "Edinburgh, City of",
+          "Dundee City",
+          "East Ayrshire",
+          "East Lothian",
+          "Eilean Siar",
+          "Falkirk",
+          "Fife",
+          "Dumfries and Galloway",
+          "Inverclyde",
+          "Highland",
+          "Midlothian",
+          "Moray",
+          "Renfrewshire",
+          "Perth and Kinross",
+          "North Ayrshire",
+          "North Lanarkshire",
+          "Orkney",
+          "Stirling",
+          "Shetland Islands",
+          "South Ayrshire",
+          "The Scottish Borders",
+          "South Lanarkshire",
+          "West Dunbartonshire",
+          "West Lothian",
+          "East Dunbartonshire",
+          "East Renfrewshire"
+        ],
+        "condition_text": "Scottish Borders(,) The,Aberdeen City,Aberdeenshire,Angus,Argyll and Bute,Glasgow City,Clackmannanshire,Edinburgh(,) City of,Dundee City,East Ayrshire,East Lothian,Eilean Siar,Falkirk,Fife,Dumfries and Galloway,Inverclyde,Highland,Midlothian,Moray,Renfrewshire,Perth and Kinross,North Ayrshire,North Lanarkshire,Orkney,Stirling,Shetland Islands,South Ayrshire,The Scottish Borders,South Lanarkshire,West Dunbartonshire,West Lothian,East Dunbartonshire,East Renfrewshire"
+      },
+      {
+        "condition_code": "122",
+        "dalia_demographic_value": [
+          "Belfast",
+          "Ballymoney",
+          "Ballymena",
+          "Derry",
+          "Banbridge",
+          "Armagh",
+          "Carrickfergus",
+          "Coleraine",
+          "Cookstown",
+          "Craigavon",
+          "Dungannon",
+          "Fermanagh",
+          "Limavady",
+          "Lisburn",
+          "Larne",
+          "Magherafelt",
+          "North Down",
+          "Down",
+          "Newry and Mourne",
+          "Newtownabbey",
+          "Omagh",
+          "Antrim",
+          "Ards",
+          "Castlereagh",
+          "Moyle",
+          "Strabane"
+        ],
+        "condition_text": "Belfast,Ballymoney,Ballymena,Derry,Banbridge,Armagh,Carrickfergus,Coleraine,Cookstown,Craigavon,Dungannon,Fermanagh,Limavady,Lisburn,Larne,Magherafelt,North Down,Down,Newry and Mourne,Newtownabbey,Omagh,Antrim,Ards,Castlereagh,Moyle,Strabane"
+      }
+    ]
+  },
+  {
+    "qualification_code": 223,
+    "dalia_demographic_key": "region_name",
+    "qualification_name": "region_name",
+    "conditions": [
+      {
+        "condition_code": "1",
+        "dalia_demographic_value": [
+          "Connecticut",
+          "Maine",
+          "Massachusetts",
+          "New Hampshire",
+          "Rhode Island",
+          "Vermont",
+          "New Jersey",
+          "New York",
+          "Pennsylvania"
+        ],
+        "condition_text": "Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, Vermont, New Jersey, New York, Pennsylvania"
+      },
+      {
+        "condition_code": "2",
+        "dalia_demographic_value": [
+          "Illinois",
+          "Indiana",
+          "Michigan",
+          "Ohio",
+          "Wisconsin",
+          "Iowa",
+          "Kansas",
+          "Minnesota",
+          "Missouri",
+          "Nebraska",
+          "North Dakota",
+          "South Dakota"
+        ],
+        "condition_text": "Illinois, Indiana, Michigan, Ohio, Wisconsin, Iowa, Kansas, Minnesota, Missouri, Nebraska, North Dakota, South Dakota"
+      },
+      {
+        "condition_code": "3",
+        "dalia_demographic_value": [
+          "Delaware",
+          "Florida",
+          "Georgia",
+          "Maryland",
+          "North Carolina",
+          "South Carolina",
+          "Virginia",
+          "District of Columbia",
+          "West Virginia",
+          "Alabama",
+          "Kentucky",
+          "Mississippi",
+          "Tennessee",
+          "Arkansas",
+          "Louisiana",
+          "Oklahoma",
+          "Texas"
+        ],
+        "condition_text": "Delaware, Florida, Georgia, Maryland, North Carolina, South Carolina, Virginia, District of Columbia, West Virginia, Alabama, Kentucky, Mississippi, Tennessee, Arkansas, Louisiana, Oklahoma, Texas"
+      },
+      {
+        "condition_code": "4",
+        "dalia_demographic_value": [
+          "Arizona",
+          "Colorado",
+          "Idaho",
+          "Montana",
+          "Nevada",
+          "New Mexico",
+          "Utah",
+          "Wyoming",
+          "Alaska",
+          "California",
+          "Hawaii",
+          "Oregon",
+          "Washington"
+        ],
+        "condition_text": "Arizona, Colorado, Idaho, Montana, Nevada, New Mexico, Utah, Wyoming, Alaska, California, Hawaii, Oregon, Washington"
+      }
+    ]
+  },
+  {
+    "qualification_code": 224,
+    "dalia_demographic_key": "region_name",
+    "qualification_name": "region_name",
+    "conditions": [
+      {
+        "condition_code": "1",
+        "dalia_demographic_value": [
+          "Connecticut",
+          "Maine",
+          "Massachusetts",
+          "New Hampshire",
+          "Rhode Island",
+          "Vermont"
+        ],
+        "condition_text": "Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, Vermont"
+      },
+      {
+        "condition_code": "2",
+        "dalia_demographic_value": [
+          "New Jersey",
+          "New York",
+          "Pennsylvania"
+        ],
+        "condition_text": "New Jersey, New York, Pennsylvania"
+      },
+      {
+        "condition_code": "3",
+        "dalia_demographic_value": [
+          "Illinois",
+          "Indiana",
+          "Michigan",
+          "Ohio",
+          "Wisconsin"
+        ],
+        "condition_text": "Illinois, Indiana, Michigan, Ohio, Wisconsin"
+      },
+      {
+        "condition_code": "4",
+        "dalia_demographic_value": [
+          "Iowa",
+          "Kansas",
+          "Minnesota",
+          "Missouri",
+          "Nebraska",
+          "North Dakota",
+          "South Dakota"
+        ],
+        "condition_text": "Iowa, Kansas, Minnesota, Missouri, Nebraska, North Dakota, South Dakota"
+      },
+      {
+        "condition_code": "5",
+        "dalia_demographic_value": [
+          "Delaware",
+          "Florida",
+          "Georgia",
+          "Maryland",
+          "North Carolina",
+          "South Carolina",
+          "Virginia",
+          "District of Columbia",
+          "West Virginia"
+        ],
+        "condition_text": "Delaware, Florida, Georgia, Maryland, North Carolina, South Carolina, Virginia, District of Columbia, West Virginia"
+      },
+      {
+        "condition_code": "6",
+        "dalia_demographic_value": [
+          "Alabama",
+          "Kentucky",
+          "Mississippi",
+          "Tennessee"
+        ],
+        "condition_text": "Alabama, Kentucky, Mississippi, Tennessee"
+      },
+      {
+        "condition_code": "7",
+        "dalia_demographic_value": [
+          "Arkansas",
+          "Louisiana",
+          "Oklahoma",
+          "Texas"
+        ],
+        "condition_text": "Arkansas, Louisiana, Oklahoma, Texas"
+      },
+      {
+        "condition_code": "8",
+        "dalia_demographic_value": [
+          "Arizona",
+          "Colorado",
+          "Idaho",
+          "Montana",
+          "Nevada",
+          "New Mexico",
+          "Utah",
+          "Wyoming"
+        ],
+        "condition_text": "Arizona, Colorado, Idaho, Montana, Nevada, New Mexico, Utah, Wyoming"
+      },
+      {
+        "condition_code": "9",
+        "dalia_demographic_value": [
+          "Alaska",
+          "California",
+          "Hawaii",
+          "Oregon",
+          "Washington"
+        ],
+        "condition_text": "Alaska, California, Hawaii, Oregon, Washington"
+      }
+    ]
+  },
+  {
+    "qualification_code": 225,
+    "dalia_demographic_key": "region_name",
+    "qualification_name": "region_name",
+    "conditions": [
+      {
+        "condition_code": "1",
+        "dalia_demographic_value": "Alabama",
+        "condition_text": "Alabama"
+      },
+      {
+        "condition_code": "2",
+        "dalia_demographic_value": "Alaska",
+        "condition_text": "Alaska"
+      },
+      {
+        "condition_code": "4",
+        "dalia_demographic_value": "Arizona",
+        "condition_text": "Arizona"
+      },
+      {
+        "condition_code": "5",
+        "dalia_demographic_value": "Arkansas",
+        "condition_text": "Arkansas"
+      },
+      {
+        "condition_code": "6",
+        "dalia_demographic_value": "California",
+        "condition_text": "California"
+      },
+      {
+        "condition_code": "8",
+        "dalia_demographic_value": "Colorado",
+        "condition_text": "Colorado"
+      },
+      {
+        "condition_code": "9",
+        "dalia_demographic_value": "Connecticut",
+        "condition_text": "Connecticut"
+      },
+      {
+        "condition_code": "10",
+        "dalia_demographic_value": "Delaware",
+        "condition_text": "Delaware"
+      },
+      {
+        "condition_code": "11",
+        "dalia_demographic_value": "District of Columbia",
+        "condition_text": "District of Columbia"
+      },
+      {
+        "condition_code": "12",
+        "dalia_demographic_value": "Florida",
+        "condition_text": "Florida"
+      },
+      {
+        "condition_code": "13",
+        "dalia_demographic_value": "Georgia",
+        "condition_text": "Georgia"
+      },
+      {
+        "condition_code": "15",
+        "dalia_demographic_value": "Hawaii",
+        "condition_text": "Hawaii"
+      },
+      {
+        "condition_code": "16",
+        "dalia_demographic_value": "Idaho",
+        "condition_text": "Idaho"
+      },
+      {
+        "condition_code": "17",
+        "dalia_demographic_value": "Illinois",
+        "condition_text": "Illinois"
+      },
+      {
+        "condition_code": "18",
+        "dalia_demographic_value": "Indiana",
+        "condition_text": "Indiana"
+      },
+      {
+        "condition_code": "19",
+        "dalia_demographic_value": "Iowa",
+        "condition_text": "Iowa"
+      },
+      {
+        "condition_code": "20",
+        "dalia_demographic_value": "Kansas",
+        "condition_text": "Kansas"
+      },
+      {
+        "condition_code": "21",
+        "dalia_demographic_value": "Kentucky",
+        "condition_text": "Kentucky"
+      },
+      {
+        "condition_code": "22",
+        "dalia_demographic_value": "Louisiana",
+        "condition_text": "Louisiana"
+      },
+      {
+        "condition_code": "23",
+        "dalia_demographic_value": "Maine",
+        "condition_text": "Maine"
+      },
+      {
+        "condition_code": "24",
+        "dalia_demographic_value": "Maryland",
+        "condition_text": "Maryland"
+      },
+      {
+        "condition_code": "25",
+        "dalia_demographic_value": "Massachusetts",
+        "condition_text": "Massachusetts"
+      },
+      {
+        "condition_code": "26",
+        "dalia_demographic_value": "Michigan",
+        "condition_text": "Michigan"
+      },
+      {
+        "condition_code": "27",
+        "dalia_demographic_value": "Minnesota",
+        "condition_text": "Minnesota"
+      },
+      {
+        "condition_code": "28",
+        "dalia_demographic_value": "Mississippi",
+        "condition_text": "Mississippi"
+      },
+      {
+        "condition_code": "29",
+        "dalia_demographic_value": "Missouri",
+        "condition_text": "Missouri"
+      },
+      {
+        "condition_code": "30",
+        "dalia_demographic_value": "Montana",
+        "condition_text": "Montana"
+      },
+      {
+        "condition_code": "31",
+        "dalia_demographic_value": "Nebraska",
+        "condition_text": "Nebraska"
+      },
+      {
+        "condition_code": "32",
+        "dalia_demographic_value": "Nevada",
+        "condition_text": "Nevada"
+      },
+      {
+        "condition_code": "33",
+        "dalia_demographic_value": "New Hampshire",
+        "condition_text": "New Hampshire"
+      },
+      {
+        "condition_code": "34",
+        "dalia_demographic_value": "New Jersey",
+        "condition_text": "New Jersey"
+      },
+      {
+        "condition_code": "35",
+        "dalia_demographic_value": "New Mexico",
+        "condition_text": "New Mexico"
+      },
+      {
+        "condition_code": "36",
+        "dalia_demographic_value": "New York",
+        "condition_text": "New York"
+      },
+      {
+        "condition_code": "37",
+        "dalia_demographic_value": "North Carolina",
+        "condition_text": "North Carolina"
+      },
+      {
+        "condition_code": "38",
+        "dalia_demographic_value": "North Dakota",
+        "condition_text": "North Dakota"
+      },
+      {
+        "condition_code": "39",
+        "dalia_demographic_value": "Ohio",
+        "condition_text": "Ohio"
+      },
+      {
+        "condition_code": "40",
+        "dalia_demographic_value": "Oklahoma",
+        "condition_text": "Oklahoma"
+      },
+      {
+        "condition_code": "41",
+        "dalia_demographic_value": "Oregon",
+        "condition_text": "Oregon"
+      },
+      {
+        "condition_code": "42",
+        "dalia_demographic_value": "Pennsylvania",
+        "condition_text": "Pennsylvania"
+      },
+      {
+        "condition_code": "44",
+        "dalia_demographic_value": "Rhode Island",
+        "condition_text": "Rhode Island"
+      },
+      {
+        "condition_code": "45",
+        "dalia_demographic_value": "South Carolina",
+        "condition_text": "South Carolina"
+      },
+      {
+        "condition_code": "46",
+        "dalia_demographic_value": "South Dakota",
+        "condition_text": "South Dakota"
+      },
+      {
+        "condition_code": "47",
+        "dalia_demographic_value": "Tennessee",
+        "condition_text": "Tennessee"
+      },
+      {
+        "condition_code": "48",
+        "dalia_demographic_value": "Texas",
+        "condition_text": "Texas"
+      },
+      {
+        "condition_code": "49",
+        "dalia_demographic_value": "Utah",
+        "condition_text": "Utah"
+      },
+      {
+        "condition_code": "50",
+        "dalia_demographic_value": "Vermont",
+        "condition_text": "Vermont"
+      },
+      {
+        "condition_code": "51",
+        "dalia_demographic_value": "Virginia",
+        "condition_text": "Virginia"
+      },
+      {
+        "condition_code": "53",
+        "dalia_demographic_value": "Washington",
+        "condition_text": "Washington"
+      },
+      {
+        "condition_code": "54",
+        "dalia_demographic_value": "West Virginia",
+        "condition_text": "West Virginia"
+      },
+      {
+        "condition_code": "55",
+        "dalia_demographic_value": "Wisconsin",
+        "condition_text": "Wisconsin"
+      },
+      {
+        "condition_code": "56",
+        "dalia_demographic_value": "Wyoming",
+        "condition_text": "Wyoming"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1031,
+    "dalia_demographic_key": "pet_ownership",
+    "qualification_name": "pet_ownership",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "cats",
+        "condition_text": "cats"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "dogs",
+        "condition_text": "dogs"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "birds",
+        "condition_text": "birds"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "fish",
+        "condition_text": "fish"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "amphibians",
+        "condition_text": "amphibians"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "rodents",
+        "condition_text": "rodents"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "reptiles",
+        "condition_text": "reptiles"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "horses",
+        "condition_text": "horses"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "no_pets",
+        "condition_text": "no_pets"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": "other",
+        "condition_text": "other"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": "none_of_above",
+        "condition_text": "none_of_above"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1038,
+    "dalia_demographic_key": "b2b_decision_maker_frequency",
+    "qualification_name": "b2b_decision_maker_frequency",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "always",
+        "condition_text": "always"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "usually",
+        "condition_text": "usually"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "sometimes",
+        "condition_text": "sometimes"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "rarely",
+        "condition_text": "rarely"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "never",
+        "condition_text": "never"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1040,
+    "dalia_demographic_key": "political_party_us",
+    "qualification_name": "political_party_us",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "democrat",
+        "condition_text": "democrat"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "republican",
+        "condition_text": "republican"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "independent",
+        "condition_text": "independent"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "constitution_party",
+        "condition_text": "constitution_party"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "green_party",
+        "condition_text": "green_party"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "libertarian_party",
+        "condition_text": "libertarian_party"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "other",
+        "condition_text": "other"
+      },
+      {
+        "condition_code": "999",
+        "dalia_demographic_value": "none",
+        "condition_text": "none"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1009,
+    "dalia_demographic_key": "gaming_category",
+    "qualification_name": "gaming_category",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "shooter",
+        "condition_text": "shooter"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "platform",
+        "condition_text": "platform"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "survival_horror",
+        "condition_text": "survival_horror"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "fighting",
+        "condition_text": "fighting"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "role_playing",
+        "condition_text": "role_playing"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "online_multiplayer",
+        "condition_text": "online_multiplayer"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "simulation",
+        "condition_text": "simulation"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "strategy",
+        "condition_text": "strategy"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "sports",
+        "condition_text": "sports"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": "racing",
+        "condition_text": "racing"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": "mobile",
+        "condition_text": "mobile"
+      },
+      {
+        "condition_code": "998",
+        "dalia_demographic_value": "starfox_brothers",
+        "condition_text": "starfox_brothers"
+      },
+      {
+        "condition_code": "999",
+        "dalia_demographic_value": "none_of_above",
+        "condition_text": "none_of_above"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1044,
+    "dalia_demographic_key": "investable_assets_hh",
+    "qualification_name": "investable_assets_hh",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": [
+          "less_1500",
+          "1500_7499",
+          "7500_9999"
+        ],
+        "condition_text": "less_1500,1500_7499,7500_9999"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": [
+          "10000_14999",
+          "15000_24999"
+        ],
+        "condition_text": "10000_14999,15000_24999"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "25000_49999",
+        "condition_text": "25000_49999"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": [
+          "50000_74999",
+          "75000_99999"
+        ],
+        "condition_text": "50000_74999,75000_99999"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": [
+          "100000_149999",
+          "150000_199999"
+        ],
+        "condition_text": "100000_149999,150000_199999"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": [
+          "200000_249999",
+          "250000_299999"
+        ],
+        "condition_text": "200000_249999,250000_299999"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "300000_499999",
+        "condition_text": "300000_499999"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "500000_749999",
+        "condition_text": "500000_749999"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "750000_999999",
+        "condition_text": "750000_999999"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": [
+          "1000000_1999999",
+          "above_2000000"
+        ],
+        "condition_text": "1000000_1999999,above_2000000"
+      },
+      {
+        "condition_code": "998",
+        "dalia_demographic_value": "none",
+        "condition_text": "none"
+      },
+      {
+        "condition_code": "999",
+        "dalia_demographic_value": "no_answer",
+        "condition_text": "no_answer"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1045,
+    "dalia_demographic_key": "lgbt",
+    "qualification_name": "lgbt",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "heterosexual",
+        "condition_text": "heterosexual"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "gay_lesbian",
+        "condition_text": "gay_lesbian"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "bisexual",
+        "condition_text": "bisexual"
+      },
+      {
+        "condition_code": "998",
+        "dalia_demographic_value": "other",
+        "condition_text": "other"
+      },
+      {
+        "condition_code": "999",
+        "dalia_demographic_value": "no_answer",
+        "condition_text": "no_answer"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1051,
+    "dalia_demographic_key": "hispanic_acculturation",
+    "qualification_name": "hispanic_acculturation",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "spanish_always",
+        "condition_text": "spanish_always"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "spanish_mostly",
+        "condition_text": "spanish_mostly"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "spanish_english_equally",
+        "condition_text": "spanish_english_equally"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "english_mostly",
+        "condition_text": "english_mostly"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "english_always",
+        "condition_text": "english_always"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1053,
+    "dalia_demographic_key": "student_occupation",
+    "qualification_name": "student_occupation",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "non_university_student",
+        "condition_text": "non_university_student"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "university_student",
+        "condition_text": "university_student"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "internship",
+        "condition_text": "internship"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "none_of_above",
+        "condition_text": "none_of_above"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1054,
+    "dalia_demographic_key": "electronic_device_ownership",
+    "qualification_name": "electronic_device_ownership",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "tablet_ios",
+        "condition_text": "tablet_ios"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "tablet_android",
+        "condition_text": "tablet_android"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "tablet_windows",
+        "condition_text": "tablet_windows"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "tablet_other",
+        "condition_text": "tablet_other"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "e_reader",
+        "condition_text": "e_reader"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "scanner",
+        "condition_text": "scanner"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "printer_lasser",
+        "condition_text": "printer_lasser"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "printer_ink_jet",
+        "condition_text": "printer_ink_jet"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "printer_multifunction",
+        "condition_text": "printer_multifunction"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": "External_hd",
+        "condition_text": "External_hd"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": "tv_led_lcd",
+        "condition_text": "tv_led_lcd"
+      },
+      {
+        "condition_code": "122",
+        "dalia_demographic_value": "tv_plasma",
+        "condition_text": "tv_plasma"
+      },
+      {
+        "condition_code": "123",
+        "dalia_demographic_value": "tv_3d",
+        "condition_text": "tv_3d"
+      },
+      {
+        "condition_code": "124",
+        "dalia_demographic_value": "tv_ultra_hd",
+        "condition_text": "tv_ultra_hd"
+      },
+      {
+        "condition_code": "125",
+        "dalia_demographic_value": "tv_smart",
+        "condition_text": "tv_smart"
+      },
+      {
+        "condition_code": "126",
+        "dalia_demographic_value": "tv_other",
+        "condition_text": "tv_other"
+      },
+      {
+        "condition_code": "127",
+        "dalia_demographic_value": "portable_music_player",
+        "condition_text": "portable_music_player"
+      },
+      {
+        "condition_code": "128",
+        "dalia_demographic_value": "game_console_xbox",
+        "condition_text": "game_console_xbox"
+      },
+      {
+        "condition_code": "129",
+        "dalia_demographic_value": "game_console_nintendo",
+        "condition_text": "game_console_nintendo"
+      },
+      {
+        "condition_code": "130",
+        "dalia_demographic_value": "game_console_playstation",
+        "condition_text": "game_console_playstation"
+      },
+      {
+        "condition_code": "131",
+        "dalia_demographic_value": "game_console_handheld",
+        "condition_text": "game_console_handheld"
+      },
+      {
+        "condition_code": "132",
+        "dalia_demographic_value": "camera_digital_video",
+        "condition_text": "camera_digital_video"
+      },
+      {
+        "condition_code": "133",
+        "dalia_demographic_value": "camera_digital_compact",
+        "condition_text": "camera_digital_compact"
+      },
+      {
+        "condition_code": "134",
+        "dalia_demographic_value": "camera_mirrorless_compact",
+        "condition_text": "camera_mirrorless_compact"
+      },
+      {
+        "condition_code": "135",
+        "dalia_demographic_value": "camera_digital_slr",
+        "condition_text": "camera_digital_slr"
+      },
+      {
+        "condition_code": "136",
+        "dalia_demographic_value": "game_console_ps4",
+        "condition_text": "game_console_ps4"
+      },
+      {
+        "condition_code": "137",
+        "dalia_demographic_value": "game_console_xbox_one",
+        "condition_text": "game_console_xbox_one"
+      },
+      {
+        "condition_code": "999",
+        "dalia_demographic_value": "none_of_above",
+        "condition_text": "none_of_above"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1055,
+    "dalia_demographic_key": "beverage_consumption",
+    "qualification_name": "beverage_consumption",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "cider",
+        "condition_text": "cider"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "bitter",
+        "condition_text": "bitter"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "alcopops",
+        "condition_text": "alcopops"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "pre_mixed_alcoholic",
+        "condition_text": "pre_mixed_alcoholic"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "beer_lager",
+        "condition_text": "beer_lager"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "beer",
+        "condition_text": "beer"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "beer_regular",
+        "condition_text": "beer_regular"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "beer_premium",
+        "condition_text": "beer_premium"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "beer_craft",
+        "condition_text": "beer_craft"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": "beer_light",
+        "condition_text": "beer_light"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": "bourbon",
+        "condition_text": "bourbon"
+      },
+      {
+        "condition_code": "122",
+        "dalia_demographic_value": "brandy",
+        "condition_text": "brandy"
+      },
+      {
+        "condition_code": "123",
+        "dalia_demographic_value": "wine_champagne",
+        "condition_text": "wine_champagne"
+      },
+      {
+        "condition_code": "124",
+        "dalia_demographic_value": "cognac",
+        "condition_text": "cognac"
+      },
+      {
+        "condition_code": "125",
+        "dalia_demographic_value": "liqueur",
+        "condition_text": "liqueur"
+      },
+      {
+        "condition_code": "126",
+        "dalia_demographic_value": "flavored_malt_beverages",
+        "condition_text": "flavored_malt_beverages"
+      },
+      {
+        "condition_code": "127",
+        "dalia_demographic_value": "gin",
+        "condition_text": "gin"
+      },
+      {
+        "condition_code": "128",
+        "dalia_demographic_value": "ouzo",
+        "condition_text": "ouzo"
+      },
+      {
+        "condition_code": "129",
+        "dalia_demographic_value": "rum",
+        "condition_text": "rum"
+      },
+      {
+        "condition_code": "130",
+        "dalia_demographic_value": "sambuca",
+        "condition_text": "sambuca"
+      },
+      {
+        "condition_code": "131",
+        "dalia_demographic_value": "schnapps",
+        "condition_text": "schnapps"
+      },
+      {
+        "condition_code": "132",
+        "dalia_demographic_value": "scotch",
+        "condition_text": "scotch"
+      },
+      {
+        "condition_code": "133",
+        "dalia_demographic_value": "tequila",
+        "condition_text": "tequila"
+      },
+      {
+        "condition_code": "134",
+        "dalia_demographic_value": "vodka",
+        "condition_text": "vodka"
+      },
+      {
+        "condition_code": "135",
+        "dalia_demographic_value": "whiskey",
+        "condition_text": "whiskey"
+      },
+      {
+        "condition_code": "136",
+        "dalia_demographic_value": "wine_sparkling",
+        "condition_text": "wine_sparkling"
+      },
+      {
+        "condition_code": "137",
+        "dalia_demographic_value": "wine",
+        "condition_text": "wine"
+      },
+      {
+        "condition_code": "138",
+        "dalia_demographic_value": "wine_chinese",
+        "condition_text": "wine_chinese"
+      },
+      {
+        "condition_code": "139",
+        "dalia_demographic_value": "wine_coolers",
+        "condition_text": "wine_coolers"
+      },
+      {
+        "condition_code": "140",
+        "dalia_demographic_value": "japanese_sake",
+        "condition_text": "japanese_sake"
+      },
+      {
+        "condition_code": "141",
+        "dalia_demographic_value": "cachaca",
+        "condition_text": "cachaca"
+      },
+      {
+        "condition_code": "142",
+        "dalia_demographic_value": "aguardiente",
+        "condition_text": "aguardiente"
+      },
+      {
+        "condition_code": "143",
+        "dalia_demographic_value": "not_consuming_alcohol",
+        "condition_text": "not_consuming_alcohol"
+      },
+      {
+        "condition_code": "999",
+        "dalia_demographic_value": "none_of_above",
+        "condition_text": "none_of_above"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1057,
+    "dalia_demographic_key": "car_brands",
+    "qualification_name": "car_brands",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "acura",
+        "condition_text": "acura"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "alfa_romeo",
+        "condition_text": "alfa_romeo"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "audi",
+        "condition_text": "audi"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "bmw",
+        "condition_text": "bmw"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "buick",
+        "condition_text": "buick"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "cadillac",
+        "condition_text": "cadillac"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "chevrolet",
+        "condition_text": "chevrolet"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "chrysler",
+        "condition_text": "chrysler"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "citroen",
+        "condition_text": "citroen"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": "dacia",
+        "condition_text": "dacia"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": "daewoo",
+        "condition_text": "daewoo"
+      },
+      {
+        "condition_code": "122",
+        "dalia_demographic_value": "daihatsu",
+        "condition_text": "daihatsu"
+      },
+      {
+        "condition_code": "123",
+        "dalia_demographic_value": "dodge",
+        "condition_text": "dodge"
+      },
+      {
+        "condition_code": "124",
+        "dalia_demographic_value": "fiat",
+        "condition_text": "fiat"
+      },
+      {
+        "condition_code": "125",
+        "dalia_demographic_value": "ford",
+        "condition_text": "ford"
+      },
+      {
+        "condition_code": "126",
+        "dalia_demographic_value": "geo",
+        "condition_text": "geo"
+      },
+      {
+        "condition_code": "127",
+        "dalia_demographic_value": "gmc",
+        "condition_text": "gmc"
+      },
+      {
+        "condition_code": "128",
+        "dalia_demographic_value": "great_wall",
+        "condition_text": "great_wall"
+      },
+      {
+        "condition_code": "129",
+        "dalia_demographic_value": "holden",
+        "condition_text": "holden"
+      },
+      {
+        "condition_code": "130",
+        "dalia_demographic_value": "honda",
+        "condition_text": "honda"
+      },
+      {
+        "condition_code": "131",
+        "dalia_demographic_value": "hyundai",
+        "condition_text": "hyundai"
+      },
+      {
+        "condition_code": "132",
+        "dalia_demographic_value": "infiniti",
+        "condition_text": "infiniti"
+      },
+      {
+        "condition_code": "133",
+        "dalia_demographic_value": "isuzu",
+        "condition_text": "isuzu"
+      },
+      {
+        "condition_code": "134",
+        "dalia_demographic_value": "jeep",
+        "condition_text": "jeep"
+      },
+      {
+        "condition_code": "135",
+        "dalia_demographic_value": "kia",
+        "condition_text": "kia"
+      },
+      {
+        "condition_code": "136",
+        "dalia_demographic_value": "lancia",
+        "condition_text": "lancia"
+      },
+      {
+        "condition_code": "137",
+        "dalia_demographic_value": "land_rover",
+        "condition_text": "land_rover"
+      },
+      {
+        "condition_code": "138",
+        "dalia_demographic_value": "lexus",
+        "condition_text": "lexus"
+      },
+      {
+        "condition_code": "139",
+        "dalia_demographic_value": "lincoln",
+        "condition_text": "lincoln"
+      },
+      {
+        "condition_code": "140",
+        "dalia_demographic_value": "mazda",
+        "condition_text": "mazda"
+      },
+      {
+        "condition_code": "141",
+        "dalia_demographic_value": "mercedes",
+        "condition_text": "mercedes"
+      },
+      {
+        "condition_code": "142",
+        "dalia_demographic_value": "mercury",
+        "condition_text": "mercury"
+      },
+      {
+        "condition_code": "143",
+        "dalia_demographic_value": "mini",
+        "condition_text": "mini"
+      },
+      {
+        "condition_code": "144",
+        "dalia_demographic_value": "mitsubishi",
+        "condition_text": "mitsubishi"
+      },
+      {
+        "condition_code": "145",
+        "dalia_demographic_value": "nissan",
+        "condition_text": "nissan"
+      },
+      {
+        "condition_code": "146",
+        "dalia_demographic_value": "oldsmobile",
+        "condition_text": "oldsmobile"
+      },
+      {
+        "condition_code": "147",
+        "dalia_demographic_value": "opel",
+        "condition_text": "opel"
+      },
+      {
+        "condition_code": "148",
+        "dalia_demographic_value": "peugeot",
+        "condition_text": "peugeot"
+      },
+      {
+        "condition_code": "149",
+        "dalia_demographic_value": "plymouth",
+        "condition_text": "plymouth"
+      },
+      {
+        "condition_code": "150",
+        "dalia_demographic_value": "pontiac",
+        "condition_text": "pontiac"
+      },
+      {
+        "condition_code": "151",
+        "dalia_demographic_value": "proton",
+        "condition_text": "proton"
+      },
+      {
+        "condition_code": "152",
+        "dalia_demographic_value": "renault",
+        "condition_text": "renault"
+      },
+      {
+        "condition_code": "153",
+        "dalia_demographic_value": "rover",
+        "condition_text": "rover"
+      },
+      {
+        "condition_code": "154",
+        "dalia_demographic_value": "saab",
+        "condition_text": "saab"
+      },
+      {
+        "condition_code": "155",
+        "dalia_demographic_value": "saturn",
+        "condition_text": "saturn"
+      },
+      {
+        "condition_code": "156",
+        "dalia_demographic_value": "scion",
+        "condition_text": "scion"
+      },
+      {
+        "condition_code": "157",
+        "dalia_demographic_value": "seat",
+        "condition_text": "seat"
+      },
+      {
+        "condition_code": "158",
+        "dalia_demographic_value": "skoda",
+        "condition_text": "skoda"
+      },
+      {
+        "condition_code": "159",
+        "dalia_demographic_value": "smart",
+        "condition_text": "smart"
+      },
+      {
+        "condition_code": "160",
+        "dalia_demographic_value": "subaru",
+        "condition_text": "subaru"
+      },
+      {
+        "condition_code": "161",
+        "dalia_demographic_value": "suzuki",
+        "condition_text": "suzuki"
+      },
+      {
+        "condition_code": "162",
+        "dalia_demographic_value": "toyota",
+        "condition_text": "toyota"
+      },
+      {
+        "condition_code": "163",
+        "dalia_demographic_value": "vauxhall",
+        "condition_text": "vauxhall"
+      },
+      {
+        "condition_code": "164",
+        "dalia_demographic_value": "volkswagen",
+        "condition_text": "volkswagen"
+      },
+      {
+        "condition_code": "165",
+        "dalia_demographic_value": "volvo",
+        "condition_text": "volvo"
+      },
+      {
+        "condition_code": "166",
+        "dalia_demographic_value": "mg",
+        "condition_text": "mg"
+      },
+      {
+        "condition_code": "167",
+        "dalia_demographic_value": "byd",
+        "condition_text": "byd"
+      },
+      {
+        "condition_code": "168",
+        "dalia_demographic_value": "buick",
+        "condition_text": "buick"
+      },
+      {
+        "condition_code": "169",
+        "dalia_demographic_value": "changan",
+        "condition_text": "changan"
+      },
+      {
+        "condition_code": "170",
+        "dalia_demographic_value": "dongfeng",
+        "condition_text": "dongfeng"
+      },
+      {
+        "condition_code": "171",
+        "dalia_demographic_value": "dongfeng_fengshen",
+        "condition_text": "dongfeng_fengshen"
+      },
+      {
+        "condition_code": "172",
+        "dalia_demographic_value": "dongnan",
+        "condition_text": "dongnan"
+      },
+      {
+        "condition_code": "173",
+        "dalia_demographic_value": "guangqi",
+        "condition_text": "guangqi"
+      },
+      {
+        "condition_code": "174",
+        "dalia_demographic_value": "hafei",
+        "condition_text": "hafei"
+      },
+      {
+        "condition_code": "175",
+        "dalia_demographic_value": "hainan_mazda",
+        "condition_text": "hainan_mazda"
+      },
+      {
+        "condition_code": "176",
+        "dalia_demographic_value": "hongqi",
+        "condition_text": "hongqi"
+      },
+      {
+        "condition_code": "177",
+        "dalia_demographic_value": "geely",
+        "condition_text": "geely"
+      },
+      {
+        "condition_code": "178",
+        "dalia_demographic_value": "jianghuai",
+        "condition_text": "jianghuai"
+      },
+      {
+        "condition_code": "179",
+        "dalia_demographic_value": "chery",
+        "condition_text": "chery"
+      },
+      {
+        "condition_code": "180",
+        "dalia_demographic_value": "roewe",
+        "condition_text": "roewe"
+      },
+      {
+        "condition_code": "181",
+        "dalia_demographic_value": "wuling",
+        "condition_text": "wuling"
+      },
+      {
+        "condition_code": "182",
+        "dalia_demographic_value": "xiali",
+        "condition_text": "xiali"
+      },
+      {
+        "condition_code": "183",
+        "dalia_demographic_value": "yiqi",
+        "condition_text": "yiqi"
+      },
+      {
+        "condition_code": "184",
+        "dalia_demographic_value": "zhonghua",
+        "condition_text": "zhonghua"
+      },
+      {
+        "condition_code": "185",
+        "dalia_demographic_value": "jaguar",
+        "condition_text": "jaguar"
+      },
+      {
+        "condition_code": "186",
+        "dalia_demographic_value": "bogdan",
+        "condition_text": "bogdan"
+      },
+      {
+        "condition_code": "187",
+        "dalia_demographic_value": "faw_besturn",
+        "condition_text": "faw_besturn"
+      },
+      {
+        "condition_code": "188",
+        "dalia_demographic_value": "gaz",
+        "condition_text": "gaz"
+      },
+      {
+        "condition_code": "189",
+        "dalia_demographic_value": "inokom",
+        "condition_text": "inokom"
+      },
+      {
+        "condition_code": "190",
+        "dalia_demographic_value": "izhmash",
+        "condition_text": "izhmash"
+      },
+      {
+        "condition_code": "191",
+        "dalia_demographic_value": "lada_avtovaz_zhiguli",
+        "condition_text": "lada_avtovaz_zhiguli"
+      },
+      {
+        "condition_code": "192",
+        "dalia_demographic_value": "lifan",
+        "condition_text": "lifan"
+      },
+      {
+        "condition_code": "193",
+        "dalia_demographic_value": "naza",
+        "condition_text": "naza"
+      },
+      {
+        "condition_code": "194",
+        "dalia_demographic_value": "perodua",
+        "condition_text": "perodua"
+      },
+      {
+        "condition_code": "195",
+        "dalia_demographic_value": "ssangyong",
+        "condition_text": "ssangyong"
+      },
+      {
+        "condition_code": "196",
+        "dalia_demographic_value": "tagaz",
+        "condition_text": "tagaz"
+      },
+      {
+        "condition_code": "197",
+        "dalia_demographic_value": "tata",
+        "condition_text": "tata"
+      },
+      {
+        "condition_code": "198",
+        "dalia_demographic_value": "uaz",
+        "condition_text": "uaz"
+      },
+      {
+        "condition_code": "199",
+        "dalia_demographic_value": "zaz",
+        "condition_text": "zaz"
+      },
+      {
+        "condition_code": "200",
+        "dalia_demographic_value": "hawtai",
+        "condition_text": "hawtai"
+      },
+      {
+        "condition_code": "201",
+        "dalia_demographic_value": "zotye",
+        "condition_text": "zotye"
+      },
+      {
+        "condition_code": "202",
+        "dalia_demographic_value": [
+          "other",
+          "none_of_above"
+        ],
+        "condition_text": "other,none_of_above"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1059,
+    "dalia_demographic_key": "car_purchase_intention",
+    "qualification_name": "car_purchase_intention",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "not_buying",
+        "condition_text": "not_buying"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "buying_used",
+        "condition_text": "buying_used"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "buying_new",
+        "condition_text": "buying_new"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "buying_used_or_new",
+        "condition_text": "buying_used_or_new"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "none_of_above",
+        "condition_text": "none_of_above"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1060,
+    "dalia_demographic_key": "business_ownership",
+    "qualification_name": "business_ownership",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "business_owner_yes",
+        "condition_text": "business_owner_yes"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "business_owner_no",
+        "condition_text": "business_owner_no"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1062,
+    "dalia_demographic_key": "grocery_shopper",
+    "qualification_name": "grocery_shopper",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "most_grocery",
+        "condition_text": "most_grocery"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "equally_shared",
+        "condition_text": "equally_shared"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "little_grocery",
+        "condition_text": "little_grocery"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1065,
+    "dalia_demographic_key": "car_year",
+    "qualification_name": "car_year",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "pre_1995",
+        "condition_text": "pre_1995"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "1995",
+        "condition_text": "1995"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "1996",
+        "condition_text": "1996"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "1997",
+        "condition_text": "1997"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "1998",
+        "condition_text": "1998"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "1999",
+        "condition_text": "1999"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "2000",
+        "condition_text": "2000"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "2001",
+        "condition_text": "2001"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "2002",
+        "condition_text": "2002"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": "2003",
+        "condition_text": "2003"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": "2004",
+        "condition_text": "2004"
+      },
+      {
+        "condition_code": "122",
+        "dalia_demographic_value": "2005",
+        "condition_text": "2005"
+      },
+      {
+        "condition_code": "123",
+        "dalia_demographic_value": "2006",
+        "condition_text": "2006"
+      },
+      {
+        "condition_code": "124",
+        "dalia_demographic_value": "2007",
+        "condition_text": "2007"
+      },
+      {
+        "condition_code": "125",
+        "dalia_demographic_value": "2008",
+        "condition_text": "2008"
+      },
+      {
+        "condition_code": "126",
+        "dalia_demographic_value": "2009",
+        "condition_text": "2009"
+      },
+      {
+        "condition_code": "127",
+        "dalia_demographic_value": "2010",
+        "condition_text": "2010"
+      },
+      {
+        "condition_code": "128",
+        "dalia_demographic_value": "2011",
+        "condition_text": "2011"
+      },
+      {
+        "condition_code": "129",
+        "dalia_demographic_value": "2012",
+        "condition_text": "2012"
+      },
+      {
+        "condition_code": "130",
+        "dalia_demographic_value": "2013",
+        "condition_text": "2013"
+      },
+      {
+        "condition_code": "131",
+        "dalia_demographic_value": "2014",
+        "condition_text": "2014"
+      },
+      {
+        "condition_code": "132",
+        "dalia_demographic_value": "2015",
+        "condition_text": "2015"
+      },
+      {
+        "condition_code": "133",
+        "dalia_demographic_value": "2016",
+        "condition_text": "2016"
+      },
+      {
+        "condition_code": "134",
+        "dalia_demographic_value": "2017",
+        "condition_text": "2017"
+      },
+      {
+        "condition_code": "135",
+        "dalia_demographic_value": "2018",
+        "condition_text": "2018"
+      },
+      {
+        "condition_code": "136",
+        "dalia_demographic_value": "2019",
+        "condition_text": "2019"
+      },
+      {
+        "condition_code": "137",
+        "dalia_demographic_value": "2020",
+        "condition_text": "2020"
+      },
+      {
+        "condition_code": "138",
+        "dalia_demographic_value": "2021",
+        "condition_text": "2021"
+      },
+      {
+        "condition_code": "139",
+        "dalia_demographic_value": "other",
+        "condition_text": "other"
+      },
+      {
+        "condition_code": "140",
+        "dalia_demographic_value": "none_of_above",
+        "condition_text": "none_of_above"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1066,
+    "dalia_demographic_key": "cars_per_household",
+    "qualification_name": "cars_per_household",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "0",
+        "condition_text": "0"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "1",
+        "condition_text": "1"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "2",
+        "condition_text": "2"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "3_or_more",
+        "condition_text": "3_or_more"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1072,
+    "dalia_demographic_key": "tv_frequency_days",
+    "qualification_name": "tv_frequency_days",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "5_days",
+        "condition_text": "5_days"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "4_days",
+        "condition_text": "4_days"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "3_days",
+        "condition_text": "3_days"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "2_days",
+        "condition_text": "2_days"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "1_day",
+        "condition_text": "1_day"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "less_than_one",
+        "condition_text": "less_than_one"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "do_not_watch",
+        "condition_text": "do_not_watch"
+      }
+    ]
+  },
+  {
+    "qualification_code": 220,
+    "dalia_demographic_key": "children_ages",
+    "qualification_name": "children_ages",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": [
+          "boy_under_1",
+          "boy_1",
+          "boy_2",
+          "boy_3",
+          "boy_4",
+          "boy_5",
+          "boy_6",
+          "boy_7",
+          "boy_8",
+          "boy_9",
+          "boy_10",
+          "boy_11",
+          "boy_12",
+          "male_13",
+          "male_14",
+          "male_15",
+          "male_16",
+          "male_17"
+        ],
+        "condition_text": "boy_under_1,boy_1,boy_2,boy_3,boy_4,boy_5,boy_6,boy_7,boy_8,boy_9,boy_10,boy_11,boy_12,male_13,male_14,male_15,male_16,male_17"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": [
+          "girl_under_1",
+          "girl_1",
+          "girl_2",
+          "girl_3",
+          "girl_4",
+          "girl_5",
+          "girl_6",
+          "girl_7",
+          "girl_8",
+          "girl_9",
+          "girl_10",
+          "girl_11",
+          "girl_12",
+          "female_13",
+          "female_14",
+          "female_15",
+          "female_16",
+          "female_17"
+        ],
+        "condition_text": "girl_under_1,girl_1,girl_2,girl_3,girl_4,girl_5,girl_6,girl_7,girl_8,girl_9,girl_10,girl_11,girl_12,female_13,female_14,female_15,female_16,female_17"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1067,
+    "dalia_demographic_key": "education_level",
+    "qualification_name": "education_level",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "low",
+        "condition_text": "low"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "low",
+        "condition_text": "low"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "medium",
+        "condition_text": "medium"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "medium",
+        "condition_text": "medium"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "high",
+        "condition_text": "high"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "high",
+        "condition_text": "high"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "high",
+        "condition_text": "high"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "medium",
+        "condition_text": "medium"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "high",
+        "condition_text": "high"
+      }
+    ]
+  },
+  {
+    "qualification_code": 245,
+    "dalia_demographic_key": "ethnicity",
+    "qualification_name": "ethnicity",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "hispanic_yes",
+        "condition_text": "hispanic_yes"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "hispanic_no",
+        "condition_text": "hispanic_no"
+      }
+    ]
+  },
+  {
+    "qualification_code": 244,
+    "dalia_demographic_key": "ethnicity",
+    "qualification_name": "ethnicity",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "caucasian",
+        "condition_text": "caucasian"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "african_american",
+        "condition_text": "african_american"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": [
+          "chinese",
+          "filipino",
+          "japanese",
+          "korean",
+          "vietnamese",
+          "other_asian",
+          "asian_indian"
+        ],
+        "condition_text": "chinese,filipino,japanese,korean,vietnamese,other_asian,asian_indian"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": [
+          "hawaiian",
+          "guamanian",
+          "samoan",
+          "other_pacific_islander"
+        ],
+        "condition_text": "hawaiian,guamanian,samoan,other_pacific_islander"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "american_indian_alaska",
+        "condition_text": "american_indian_alaska"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": [
+          "hispanic_yes",
+          "hispanic_no",
+          "other",
+          "prefer_no_answer"
+        ],
+        "condition_text": "hispanic_yes,hispanic_no,other,prefer_no_answer"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1069,
+    "dalia_demographic_key": "ethnicity",
+    "qualification_name": "ethnicity",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "hispanic_yes",
+        "condition_text": "hispanic_yes"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "hispanic_no",
+        "condition_text": "hispanic_no"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1056,
+    "dalia_demographic_key": "full_time_job",
+    "qualification_name": "full_time_job",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": [
+          "yes",
+          "job_full_time",
+          "full"
+        ],
+        "condition_text": "yes,job_full_time,full"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": [
+          "job_part_time",
+          "part"
+        ],
+        "condition_text": "job_part_time,part"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": [
+          "job_self",
+          "self_full",
+          "self_part"
+        ],
+        "condition_text": "job_self,self_full,self_part"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": [
+          "retired",
+          "job_retired"
+        ],
+        "condition_text": "retired,job_retired"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": [
+          "job_student",
+          "student"
+        ],
+        "condition_text": "job_student,student"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": [
+          "job_homemaker",
+          "homemaker"
+        ],
+        "condition_text": "job_homemaker,homemaker"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "disabled",
+        "condition_text": "disabled"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": [
+          "unemployed",
+          "none",
+          "no",
+          "job_unemployed"
+        ],
+        "condition_text": "unemployed,none,no,job_unemployed"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": [
+          "job_part_time",
+          "part"
+        ],
+        "condition_text": "job_part_time,part"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": [
+          "military",
+          "veteran"
+        ],
+        "condition_text": "military,veteran"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1034,
+    "dalia_demographic_key": "no_of_employees",
+    "qualification_name": "no_of_employees",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": [
+          "1",
+          "2_10"
+        ],
+        "condition_text": "1,2_10"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "2_10",
+        "condition_text": "2_10"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "11_50",
+        "condition_text": "11_50"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "11_50",
+        "condition_text": "11_50"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "11_50",
+        "condition_text": "11_50"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "51_100",
+        "condition_text": "51_100"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "101_500",
+        "condition_text": "101_500"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "101_500",
+        "condition_text": "101_500"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "501_1000",
+        "condition_text": "501_1000"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": "1001_5000",
+        "condition_text": "1001_5000"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": "1001_5000",
+        "condition_text": "1001_5000"
+      },
+      {
+        "condition_code": "122",
+        "dalia_demographic_value": "5000_greater",
+        "condition_text": "5000_greater"
+      },
+      {
+        "condition_code": "123",
+        "dalia_demographic_value": "5000_greater",
+        "condition_text": "5000_greater"
+      },
+      {
+        "condition_code": "124",
+        "dalia_demographic_value": "5000_greater",
+        "condition_text": "5000_greater"
+      },
+      {
+        "condition_code": "125",
+        "dalia_demographic_value": "5000_greater",
+        "condition_text": "5000_greater"
+      },
+      {
+        "condition_code": "999",
+        "dalia_demographic_value": "do_not_know",
+        "condition_text": "do_not_know"
+      }
+    ]
+  },
+  {
+    "qualification_code": 251,
+    "dalia_demographic_key": "region_name",
+    "qualification_name": "region_name",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "Aguascalientes",
+        "condition_text": "Aguascalientes"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "Baja California",
+        "condition_text": "Baja California"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "Baja California Sur",
+        "condition_text": "Baja California Sur"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "Campeche",
+        "condition_text": "Campeche"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "Chiapas",
+        "condition_text": "Chiapas"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "Chihuahua",
+        "condition_text": "Chihuahua"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "Distrito Federal",
+        "condition_text": "Distrito Federal"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "Coahuila de Zaragoza",
+        "condition_text": "Coahuila de Zaragoza"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "Colima",
+        "condition_text": "Colima"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": "Durango",
+        "condition_text": "Durango"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": "Guanajuato",
+        "condition_text": "Guanajuato"
+      },
+      {
+        "condition_code": "122",
+        "dalia_demographic_value": "Guerrero",
+        "condition_text": "Guerrero"
+      },
+      {
+        "condition_code": "123",
+        "dalia_demographic_value": "Hidalgo",
+        "condition_text": "Hidalgo"
+      },
+      {
+        "condition_code": "124",
+        "dalia_demographic_value": "Jalisco",
+        "condition_text": "Jalisco"
+      },
+      {
+        "condition_code": "125",
+        "dalia_demographic_value": "Mexico",
+        "condition_text": "Mexico"
+      },
+      {
+        "condition_code": "126",
+        "dalia_demographic_value": "Michoacan de Ocampo",
+        "condition_text": "Michoacan de Ocampo"
+      },
+      {
+        "condition_code": "127",
+        "dalia_demographic_value": "Morelos",
+        "condition_text": "Morelos"
+      },
+      {
+        "condition_code": "128",
+        "dalia_demographic_value": "Nayarit",
+        "condition_text": "Nayarit"
+      },
+      {
+        "condition_code": "129",
+        "dalia_demographic_value": "Nuevo Leon",
+        "condition_text": "Nuevo Leon"
+      },
+      {
+        "condition_code": "130",
+        "dalia_demographic_value": "Oaxaca",
+        "condition_text": "Oaxaca"
+      },
+      {
+        "condition_code": "131",
+        "dalia_demographic_value": "Puebla",
+        "condition_text": "Puebla"
+      },
+      {
+        "condition_code": "132",
+        "dalia_demographic_value": "Queretaro de Arteaga",
+        "condition_text": "Queretaro de Arteaga"
+      },
+      {
+        "condition_code": "133",
+        "dalia_demographic_value": "Quintana Roo",
+        "condition_text": "Quintana Roo"
+      },
+      {
+        "condition_code": "134",
+        "dalia_demographic_value": "San Luis Potosi",
+        "condition_text": "San Luis Potosi"
+      },
+      {
+        "condition_code": "135",
+        "dalia_demographic_value": "Sinaloa",
+        "condition_text": "Sinaloa"
+      },
+      {
+        "condition_code": "136",
+        "dalia_demographic_value": "Sonora",
+        "condition_text": "Sonora"
+      },
+      {
+        "condition_code": "137",
+        "dalia_demographic_value": "Tabasco",
+        "condition_text": "Tabasco"
+      },
+      {
+        "condition_code": "138",
+        "dalia_demographic_value": "Tamaulipas",
+        "condition_text": "Tamaulipas"
+      },
+      {
+        "condition_code": "139",
+        "dalia_demographic_value": "Tlaxcala",
+        "condition_text": "Tlaxcala"
+      },
+      {
+        "condition_code": "140",
+        "dalia_demographic_value": "Veracruz-Llave",
+        "condition_text": "Veracruz-Llave"
+      },
+      {
+        "condition_code": "141",
+        "dalia_demographic_value": "Yucatan",
+        "condition_text": "Yucatan"
+      },
+      {
+        "condition_code": "142",
+        "dalia_demographic_value": "Zacatecas",
+        "condition_text": "Zacatecas"
+      }
+    ]
+  },
+  {
+    "qualification_code": 285,
+    "dalia_demographic_key": "region_name",
+    "qualification_name": "region_name",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "Baden-Wurttemberg",
+        "condition_text": "Baden-Wurttemberg"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "Bayern",
+        "condition_text": "Bayern"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "Berlin",
+        "condition_text": "Berlin"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "Brandenburg",
+        "condition_text": "Brandenburg"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "Bremen",
+        "condition_text": "Bremen"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "Hamburg",
+        "condition_text": "Hamburg"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "Hessen",
+        "condition_text": "Hessen"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "Mecklenburg-Vorpommern",
+        "condition_text": "Mecklenburg-Vorpommern"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "Niedersachsen",
+        "condition_text": "Niedersachsen"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": "Nordrhein-Westfalen",
+        "condition_text": "Nordrhein-Westfalen"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": "Rheinland-Pfalz",
+        "condition_text": "Rheinland-Pfalz"
+      },
+      {
+        "condition_code": "122",
+        "dalia_demographic_value": "Saarland",
+        "condition_text": "Saarland"
+      },
+      {
+        "condition_code": "123",
+        "dalia_demographic_value": "Sachsen",
+        "condition_text": "Sachsen"
+      },
+      {
+        "condition_code": "124",
+        "dalia_demographic_value": "Sachsen-Anhalt",
+        "condition_text": "Sachsen-Anhalt"
+      },
+      {
+        "condition_code": "125",
+        "dalia_demographic_value": "Schleswig-Holstein",
+        "condition_text": "Schleswig-Holstein"
+      },
+      {
+        "condition_code": "126",
+        "dalia_demographic_value": "Thuringen",
+        "condition_text": "Thuringen"
+      }
+    ]
+  },
+  {
+    "qualification_code": 286,
+    "dalia_demographic_key": "region_name",
+    "qualification_name": "region_name",
+    "conditions": [
+      {
+        "condition_code": "110",
+        "dalia_demographic_value": "Canarias",
+        "condition_text": "Canarias"
+      },
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": [
+          "Castilla y Leon",
+          "Castilla-La Mancha",
+          "Extremadura"
+        ],
+        "condition_text": "Castilla y Leon,Castilla-La Mancha,Extremadura"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "Madrid",
+        "condition_text": "Madrid"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": [
+          "Catalonia",
+          "Comunidad Valenciana",
+          "Islas Baleares"
+        ],
+        "condition_text": "Catalonia,Comunidad Valenciana,Islas Baleares"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": [
+          "Navarra",
+          "La Rioja",
+          "Aragon",
+          "Pais Vasco"
+        ],
+        "condition_text": "Navarra,La Rioja,Aragon,Pais Vasco"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": [
+          "Galicia",
+          "Asturias",
+          "Cantabria"
+        ],
+        "condition_text": "Galicia,Asturias,Cantabria"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": [
+          "Murcia",
+          "Andalucia"
+        ],
+        "condition_text": "Murcia,Andalucia"
+      }
+    ]
+  },
+  {
+    "qualification_code": 280,
+    "dalia_demographic_key": "region_name",
+    "qualification_name": "region_name",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "Drenthe",
+        "condition_text": "Drenthe"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "Flevoland",
+        "condition_text": "Flevoland"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "Friesland",
+        "condition_text": "Friesland"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "Gelderland",
+        "condition_text": "Gelderland"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "Groningen",
+        "condition_text": "Groningen"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "Limburg",
+        "condition_text": "Limburg"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "Noord-Brabant",
+        "condition_text": "Noord-Brabant"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "Noord-Holland",
+        "condition_text": "Noord-Holland"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "Overijssel",
+        "condition_text": "Overijssel"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": "Utrecht",
+        "condition_text": "Utrecht"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": "Zeeland",
+        "condition_text": "Zeeland"
+      },
+      {
+        "condition_code": "122",
+        "dalia_demographic_value": "Zuid-Holland",
+        "condition_text": "Zuid-Holland"
+      }
+    ]
+  },
+  {
+    "qualification_code": 217,
+    "dalia_demographic_key": "relationships_ps",
+    "qualification_name": "relationships_ps",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "single",
+        "condition_text": "single"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "engaged",
+        "condition_text": "engaged"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "living_with_partner",
+        "condition_text": "living_with_partner"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "married",
+        "condition_text": "married"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "divorced",
+        "condition_text": "divorced"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "widowed",
+        "condition_text": "widowed"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1033,
+    "dalia_demographic_key": "b2b_department_ps",
+    "qualification_name": "b2b_department_ps",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "accounting_finance",
+        "condition_text": "accounting_finance"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "administration",
+        "condition_text": "administration"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "architect",
+        "condition_text": "architect"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "clerical",
+        "condition_text": "clerical"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "communications_pr",
+        "condition_text": "communications_pr"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "creative_services",
+        "condition_text": "creative_services"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "customer_service",
+        "condition_text": "customer_service"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "design_engineering",
+        "condition_text": "design_engineering"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "executive_owner",
+        "condition_text": "executive_owner"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": "general_management",
+        "condition_text": "general_management"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": "human_resources",
+        "condition_text": "human_resources"
+      },
+      {
+        "condition_code": "122",
+        "dalia_demographic_value": "information_technology",
+        "condition_text": "information_technology"
+      },
+      {
+        "condition_code": "123",
+        "dalia_demographic_value": "infrastructure",
+        "condition_text": "infrastructure"
+      },
+      {
+        "condition_code": "124",
+        "dalia_demographic_value": "interior_design",
+        "condition_text": "interior_design"
+      },
+      {
+        "condition_code": "125",
+        "dalia_demographic_value": "janitorial",
+        "condition_text": "janitorial"
+      },
+      {
+        "condition_code": "126",
+        "dalia_demographic_value": "legal_professional",
+        "condition_text": "legal_professional"
+      },
+      {
+        "condition_code": "127",
+        "dalia_demographic_value": "quality_control",
+        "condition_text": "quality_control"
+      },
+      {
+        "condition_code": "128",
+        "dalia_demographic_value": "manufacturing",
+        "condition_text": "manufacturing"
+      },
+      {
+        "condition_code": "129",
+        "dalia_demographic_value": "market_research",
+        "condition_text": "market_research"
+      },
+      {
+        "condition_code": "130",
+        "dalia_demographic_value": "marketing_advertising",
+        "condition_text": "marketing_advertising"
+      },
+      {
+        "condition_code": "131",
+        "dalia_demographic_value": "office_manager",
+        "condition_text": "office_manager"
+      },
+      {
+        "condition_code": "132",
+        "dalia_demographic_value": "operations_production",
+        "condition_text": "operations_production"
+      },
+      {
+        "condition_code": "133",
+        "dalia_demographic_value": "planning",
+        "condition_text": "planning"
+      },
+      {
+        "condition_code": "134",
+        "dalia_demographic_value": "procurement",
+        "condition_text": "procurement"
+      },
+      {
+        "condition_code": "135",
+        "dalia_demographic_value": "project_manager",
+        "condition_text": "project_manager"
+      },
+      {
+        "condition_code": "136",
+        "dalia_demographic_value": "quality_control",
+        "condition_text": "quality_control"
+      },
+      {
+        "condition_code": "137",
+        "dalia_demographic_value": "research_and_development",
+        "condition_text": "research_and_development"
+      },
+      {
+        "condition_code": "138",
+        "dalia_demographic_value": "risk_management",
+        "condition_text": "risk_management"
+      },
+      {
+        "condition_code": "139",
+        "dalia_demographic_value": "sales_business_development",
+        "condition_text": "sales_business_development"
+      },
+      {
+        "condition_code": "140",
+        "dalia_demographic_value": "security",
+        "condition_text": "security"
+      },
+      {
+        "condition_code": "141",
+        "dalia_demographic_value": "supply_chain_demand_management",
+        "condition_text": "supply_chain_demand_management"
+      },
+      {
+        "condition_code": "142",
+        "dalia_demographic_value": "technician",
+        "condition_text": "technician"
+      },
+      {
+        "condition_code": "143",
+        "dalia_demographic_value": "training",
+        "condition_text": "training"
+      },
+      {
+        "condition_code": "144",
+        "dalia_demographic_value": "warehouse_transportation_shipping",
+        "condition_text": "warehouse_transportation_shipping"
+      },
+      {
+        "condition_code": "999",
+        "dalia_demographic_value": "none_other",
+        "condition_text": "none_other"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1077,
+    "dalia_demographic_key": "webcam_consent_ps",
+    "qualification_name": "webcam_consent_ps",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "yes",
+        "condition_text": "yes"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "no",
+        "condition_text": "no"
+      }
+    ]
+  },
+  {
+    "qualification_code": 1078,
+    "dalia_demographic_key": "activities_sports_ps",
+    "qualification_name": "activities_sports_ps",
+    "conditions": [
+      {
+        "condition_code": "111",
+        "dalia_demographic_value": "golf",
+        "condition_text": "golf"
+      },
+      {
+        "condition_code": "112",
+        "dalia_demographic_value": "jogging",
+        "condition_text": "jogging"
+      },
+      {
+        "condition_code": "113",
+        "dalia_demographic_value": "tennis",
+        "condition_text": "tennis"
+      },
+      {
+        "condition_code": "114",
+        "dalia_demographic_value": "badminton",
+        "condition_text": "badminton"
+      },
+      {
+        "condition_code": "115",
+        "dalia_demographic_value": "sailing",
+        "condition_text": "sailing"
+      },
+      {
+        "condition_code": "116",
+        "dalia_demographic_value": "hiking",
+        "condition_text": "hiking"
+      },
+      {
+        "condition_code": "117",
+        "dalia_demographic_value": "swimming",
+        "condition_text": "swimming"
+      },
+      {
+        "condition_code": "118",
+        "dalia_demographic_value": "soccer",
+        "condition_text": "soccer"
+      },
+      {
+        "condition_code": "119",
+        "dalia_demographic_value": "martial_arts",
+        "condition_text": "martial_arts"
+      },
+      {
+        "condition_code": "120",
+        "dalia_demographic_value": "cycling",
+        "condition_text": "cycling"
+      },
+      {
+        "condition_code": "121",
+        "dalia_demographic_value": "basketball",
+        "condition_text": "basketball"
+      },
+      {
+        "condition_code": "122",
+        "dalia_demographic_value": "horse_riding",
+        "condition_text": "horse_riding"
+      },
+      {
+        "condition_code": "123",
+        "dalia_demographic_value": "climbing_mountaineering",
+        "condition_text": "climbing_mountaineering"
+      },
+      {
+        "condition_code": "124",
+        "dalia_demographic_value": "skiing",
+        "condition_text": "skiing"
+      },
+      {
+        "condition_code": "125",
+        "dalia_demographic_value": "handball",
+        "condition_text": "handball"
+      },
+      {
+        "condition_code": "126",
+        "dalia_demographic_value": "table_tennis",
+        "condition_text": "table_tennis"
+      },
+      {
+        "condition_code": "129",
+        "dalia_demographic_value": "baseball",
+        "condition_text": "baseball"
+      },
+      {
+        "condition_code": "130",
+        "dalia_demographic_value": "american_football",
+        "condition_text": "american_football"
+      },
+      {
+        "condition_code": "999",
+        "dalia_demographic_value": "none",
+        "condition_text": "none"
+      }
+    ]
+  }
+]

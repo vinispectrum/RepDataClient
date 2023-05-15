@@ -1,0 +1,42 @@
+{
+  "target_groups": [
+    {
+      "id": "main",
+      "target": [
+        { "key": "country_code", "values": ["US"] },
+        { "key": "gender", "values": ["male", "female"] },
+        {
+          "key": "parental_status",
+          "values": ["children_under_18", "childrren_above_18", "under_18"],
+          "tolerance": "flexible"
+        }
+      ],
+      "required": true
+    },
+    {
+      "id": "6e117e95-5519-489c-8642-0607f78feba5",
+      "target": [
+        { "key": "gender", "values": ["male"] },
+        {
+          "key": "parental_status",
+          "values": ["children_under_18", "childrren_above_18", "under_18"],
+          "tolerance": "flexible"
+        }
+      ],
+      "amount_pending": 4
+    },
+    {
+      "id": "6e117e95-5519-489c-8642-0607f78febwqr",
+      "target": [
+        { "key": "gender", "values": ["female"] },
+        {
+          "key": "parental_status",
+          "values": ["children_under_18", "childrren_above_18", "under_18"],
+          "tolerance": "flexible"
+        }
+      ],
+      "amount_pending": 0
+    }
+  ],
+  "quotas_not_supported": []
+}
